@@ -8,7 +8,7 @@ Comments on sensors:
 
 Plan:
 
-1/ Buy a sensor, TODO.
+1/ Buy a sensor. Ordered on 2026-01-07, waiting for reception.
 
 2/ Make some tests with it.
    For now, simple tests with the bathroom.
