@@ -10,3 +10,7 @@ Conclusions:
 * No ratiometric output, absolute value output.
 * Current consumption low enough for most purposes.
 * Value for no water very close to the 0.5 V spec.
+
+Second tests:
+  Sensor broken after a failure. Short-circuit ? Metal case of the computer ? Maybe the output was connected to one of the rails. Output voltage anomalous, values from negative onces to around 12 V. Maybe some charge pump inside ?
+  Stop tests, unmount the sensor for analysis.
