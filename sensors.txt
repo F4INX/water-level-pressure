@@ -12,4 +12,4 @@ Plan:
 
 2/ Make some tests with it.
    For now, simple tests with the bathroom.
-   TODO: prepare a simple test bench.
+   Tests pending, see tests.txt.

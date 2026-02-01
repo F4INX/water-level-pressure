@@ -1,0 +1,12 @@
+First tests:
+
+Dry:
+  Valim (V),  Ialim (A),  Vout (V)
+  5.0,        0.00,       0.508
+  4.2,        0.00,       0.507
+  5.6,        0.00,       0.508
+
+Conclusions:
+* No ratiometric output, absolute value output.
+* Current consumption low enough for most purposes.
+* Value for no water very close to the 0.5 V spec.
