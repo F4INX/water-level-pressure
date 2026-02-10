@@ -14,3 +14,7 @@ Conclusions:
 Second tests:
   Sensor broken after a failure. Short-circuit ? Metal case of the computer ? Maybe the output was connected to one of the rails. Output voltage anomalous, values from negative onces to around 12 V. Maybe some charge pump inside ?
   Stop tests, unmount the sensor for analysis.
+
+Order of new stuff:
+  Price of sensor diminuished a little.
+  New sensor + isolated connectors on 2026-02-10.
