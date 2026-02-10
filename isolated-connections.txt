@@ -10,6 +10,7 @@ At output of the sensor, 3 banana plugs:
     Black, Red, Yellow
   * https://fr.aliexpress.com/item/1005007581845199.html (stackable, protected)
     Black, Red, Yellow
+    -> Selected
   * https://fr.aliexpress.com/item/1005010804653121.html (stackable, protected)
     Multicolor
 
