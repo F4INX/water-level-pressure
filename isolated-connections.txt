@@ -1,0 +1,21 @@
+Colors of the banana connectors and cables selected for meaning rather than
+original colors of the sensor.
+
+  Sensor green  <-> Black
+  Sensor red    <-> Red
+  Sensor yellow <-> Yellow
+
+At output of the sensor, 3 banana plugs:
+  * https://fr.aliexpress.com/item/1005009277956385.html (non stackable, non protected)
+    Black, Red, Yellow
+  * https://fr.aliexpress.com/item/1005007581845199.html (stackable, protected)
+    Black, Red, Yellow
+    -> Selected
+  * https://fr.aliexpress.com/item/1005010804653121.html (stackable, protected)
+    Multicolor
+
+Cables to connect to multimeter:
+  https://fr.aliexpress.com/item/1005009355756032.html
+
+Cables to connect to supply (without protection):
+  https://fr.aliexpress.com/item/1005006632082282.html
