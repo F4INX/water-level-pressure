@@ -13,7 +13,8 @@ At output of the sensor, 3 banana plugs:
   * https://fr.aliexpress.com/item/1005010804653121.html (stackable, protected)
     Multicolor
 
-Cables for connections:
+Cables to connect to multimeter:
   https://fr.aliexpress.com/item/1005009355756032.html
 
-TODO: See how to connect to supply.
+Cables to connect to supply (without protection):
+  https://fr.aliexpress.com/item/1005006632082282.html
