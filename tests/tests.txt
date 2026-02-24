@@ -18,3 +18,10 @@ Second tests:
 Order of new stuff:
   Price of sensor diminuished a little.
   New sensor + isolated connectors on 2026-02-10.
+
+New tests:
+  Connectors to be soldered. For tests, make some hack.
+  No water: 506 mV
+  316mm water: 910 mV (after some bubbles escaped)
+  Error less than 9mm, ok.
+  Tests are successful.
