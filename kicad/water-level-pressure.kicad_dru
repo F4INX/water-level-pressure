@@ -1,0 +1,156 @@
+# JLCPCB Design rules, 2 layers, 1 oz
+# Kicad 7
+# Modified from https://gist.github.com/darkxst/f713268e5469645425eed40115fb8b49#file-rules-txt
+
+# Design rules absolute constraints
+#   Copper
+#     Minimum clearance 5 mil
+#       JLCPCB rules, Minimum trace width and spacing, 1-2 layers, 1 oz
+#         5 mil
+#     Minimum track width 5 mil
+#       JLCPCB rules, Minimum trace width and spacing, 1-2 layers, 1 oz
+#         5 mil
+#     Minimum annular width 0.1 mm
+#       JLCPCB rules, Drill/hole size, Min. via hole size/diameter, 1 & 2 layers PCB
+#         0.3 mm (hole size) / 0.5 mm (diameter)
+#     Minimum via diameter 0.5 mm
+#       JLCPCB rules, Drill/hole size, Min. via hole size/diameter, 1 & 2 layers PCB
+#         0.5 mm (diameter)
+#     Copper to hole distance 0.2 mm
+#       JLCPCB rules, Minimum clearance, Via to track
+#         0.254 mm
+#       JLCPCB rules, Minimum clearance, PTH to track
+#         0.33 mm
+#       JLCPCB rules, Minimum clearance, NPTH to track
+#         0.254 mm
+#       JLCPCB rules, Minimum clearance, Pad to track
+#         0.2 mm
+#     Copper to edge distance 0.3 mm
+#       JLCPCB rules, Board outlines, Trace to outline (routed)
+#         0.3 mm
+#   Holes
+#     Minimum through hole 0.3 mm
+#       JLCPCB rules, Drill/hole size, Drill hole size, 1 & 2 Layer PCB
+#         0.3 mm
+#     Hole to hole clearance 0.254 mm
+#       JLCPCB rules, Minimum clearance, Via to via clearance (same nets)
+#         0.254 mm
+#   Silkscreen
+#     Minimum text height 1 mm (rounded)
+#       JLCPCB rules, Legend, Minimum text height
+#         40mil
+#     Minimum text thickness 0.15 mm (rounded)
+#       JLCPCB rules, Legend, Minimum line width
+#         6mil
+
+(version 1)
+
+(rule "Minimum trace width"
+	# JLCPCB rules, Minimum trace width and spacing, 1-2 Layers, 1 oz
+	(constraint track_width (min 5mil))
+	(layer outer)
+	(condition "A.Type == 'track'"))
+
+(rule "Minimum trace spacing"
+	# JLCPCB rules, Minimum trace width and spacing, 1-2 Layers, 1 oz
+	(constraint clearance (min 5mil))
+	(layer outer)
+	(condition "A.Type == 'track' && B.Type == A.Type"))
+
+# Silkscreen (Kicad 7 only)
+(rule "Minimum Text"
+	# JLCPCB rules, Legend, Minimum line width
+	# 6 mil rounded
+	(constraint text_thickness (min 0.15mm))  
+	# JLCPCB rules, Legend, Minimum text height
+	# 40 mil rounded
+	(constraint text_height (min 1mm))
+	(layer "?.Silkscreen"))
+
+(rule "Pad to Silkscreen"
+	# JLCPCB rules, Legend, Pad to silkscreen
+	(constraint silk_clearance (min 0.15mm))
+	(layer outer)
+	(condition "A.Type == 'pad' && (B.Type == 'text' || B.Type == 'graphic')"))
+
+# Edge clearance
+(rule "Trace to Outline"
+	# JLCPCB rules, Board outlines, Trace to outline (routed)
+	(constraint edge_clearance (min 0.2mm))
+	(condition "A.Type == 'track' && A.NetName != 'GND'"))
+
+# This would override board outline and milled areas
+#(rule "Trace to V-Cut"
+#	(constraint clearance (min 0.4mm))
+#	(condition "A.Type == 'track' && B.Layer == 'Edge.Cuts'"))
+
+# Drill/hole size
+(rule "drill hole size (mechanical)"
+	# JLCPCB rules, Drill/hole size, Drill hole size, 1 & 2 layers PCB
+	(constraint hole_size (min 0.3mm) (max 6.35mm)))
+
+(rule "Minimum Via Hole Size"
+    # JLCPCB rules, Drill/hole size, Min. via hole size/diameter, 1 & 2 Layer PCB
+	(constraint hole_size (min 0.3mm))
+	(condition "A.Type == 'via'"))
+
+(rule "Minimum Via Diameter"
+	# JLCPCB rules, Drill/hole size, Min. via hole size/diameter, 1 & 2 Layer PCB
+	(constraint via_diameter (min 0.5mm))
+	(condition "A.Type == 'via'"))
+
+(rule "PTH Hole Size"
+	# JLCPCB rules, Drill/hole size, PTH hole size, 
+	(constraint hole_size (min 0.2mm) (max 6.35mm))
+	(condition "A.isPlated()"))
+
+(rule "Minimum Non-plated Hole Size"
+	# JLCPCB rules, Board outlines, 
+	(constraint hole_size (min 0.5mm))
+	(condition "A.Type == 'pad' && !A.isPlated()"))
+	
+(rule "Minimum Castellated Hole Size"
+	# JLCPCB rule, Drill/hole size, Min. castellated holes
+	(constraint hole_size (min 0.6mm))
+	(condition "A.Type == 'pad' && A.Fabrication_Property == 'Castellated pad'"))
+
+# Clearance
+(rule "hole to hole clearance (different nets)"
+	# JLCPCB rules, Minimum clearance, Via to via clearance (same nets)
+	(constraint hole_to_hole (min 0.5mm))
+	(condition "A.Net != B.Net"))
+
+(rule "via to track clearance"
+  # JLCPCB rules, Minimum clearance, Via to track
+	(constraint hole_clearance (min 0.254mm))
+	(condition "A.Type == 'via' && B.Type == 'track'"))
+
+(rule "via to via clearance (same nets)"
+  # JLCPCB rules, Minimum clearance, via to via clearance (same nets)
+	(constraint hole_to_hole (min 0.254mm))
+	(condition "A.Type == 'via' && B.Type == A.Type && A.Net == B.Net"))
+
+(rule "pad to pad clearance (with hole, different nets)"
+  # JLCPCB rules, Minimum clearance, pad to pad clearance (pad with hole, different nets)
+	(constraint hole_to_hole (min 0.5mm))
+	(condition "A.Type == 'pad' && B.Type == A.Type && A.Net != B.Net"))
+
+(rule "pad to pad clearance (without hole, different nets)"
+  # JLCPCB rules, Minimum clearance, pad to pad clearance (pad without hole, different nets)
+	(constraint clearance (min 0.127mm))
+	(condition "A.Type == 'pad' && B.Type == A.Type && A.Net != B.Net"))
+
+(rule "NPTH to track clearance)"
+  # JLCPCB rules, Minimum clearance, NPTH to track
+	(constraint hole_clearance (min 0.254mm))
+	(condition "A.Pad_Type == 'NPTH, mechanical' && B.Type == 'track'"))
+
+(rule "PTH to track clearance)"
+  # JLCPCB rules, Minimum clearance, PTH to track
+	(constraint hole_clearance (min 0.33mm))
+	(condition "A.isPlated() && B.Type == 'track'"))
+
+(rule "Pad to track clearance)"
+  # JLCPCB rules, Minimum clearance, Pad to track
+	(constraint clearance (min 0.2mm))
+	(condition "A.isPlated() && B.Type == 'track'"))
