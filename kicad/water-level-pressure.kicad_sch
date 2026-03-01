@@ -477,6 +477,230 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Battery_Cell"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "BT"
+				(at 2.54 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Battery_Cell"
+				(at 2.54 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 1.524 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 1.524 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Single-cell battery"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Type" "DC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=+ 2=-"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "battery cell"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Battery_Cell_0_1"
+				(rectangle
+					(start -2.286 1.778)
+					(end 2.286 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 1.016)
+					(end 1.524 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.048) (xy 1.778 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.556) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Battery_Cell_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MCU_Module:Arduino_Nano_Every"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1503,7 +1727,7 @@
 	)
 	(text "PUSH BUTTON"
 		(exclude_from_sim no)
-		(at 25.4 142.24 0)
+		(at 25.4 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1528,13 +1752,13 @@
 		(uuid "1a25f1a9-48ef-4383-afd6-fdd28e3bc2a7")
 	)
 	(junction
-		(at 62.23 170.18)
+		(at 62.23 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2303ab01-c4ce-4623-b9db-ed3ebe4f20b5")
 	)
 	(junction
-		(at 58.42 170.18)
+		(at 58.42 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2cded276-f9b0-4ae7-a9b1-2900cb901336")
@@ -1552,7 +1776,7 @@
 		(uuid "a315f8b2-a7a9-43db-9dd8-5b1f09be7bfc")
 	)
 	(junction
-		(at 54.61 170.18)
+		(at 54.61 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d9802c77-5832-4e3e-9ddb-9646eae4be6a")
@@ -1575,7 +1799,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 170.18) (xy 62.23 170.18)
+			(xy 58.42 177.8) (xy 62.23 177.8)
 		)
 		(stroke
 			(width 0)
@@ -1605,7 +1829,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 167.64) (xy 46.99 170.18)
+			(xy 46.99 175.26) (xy 46.99 177.8)
 		)
 		(stroke
 			(width 0)
@@ -1675,7 +1899,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 140.97) (xy 50.8 140.97)
+			(xy 44.45 153.67) (xy 50.8 153.67)
 		)
 		(stroke
 			(width 0)
@@ -1685,13 +1909,23 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 170.18) (xy 69.85 167.64)
+			(xy 69.85 177.8) (xy 69.85 175.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "33cb4f35-2a4f-4fda-b1b7-44bda9ecd7d4")
+	)
+	(wire
+		(pts
+			(xy 38.1 134.62) (xy 38.1 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37632dc9-2a0d-4fbc-b7c7-9e9578ed6001")
 	)
 	(wire
 		(pts
@@ -1715,7 +1949,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 170.18) (xy 69.85 170.18)
+			(xy 62.23 177.8) (xy 69.85 177.8)
 		)
 		(stroke
 			(width 0)
@@ -1735,7 +1969,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 170.18) (xy 58.42 170.18)
+			(xy 54.61 177.8) (xy 58.42 177.8)
 		)
 		(stroke
 			(width 0)
@@ -1805,16 +2039,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 130.81) (xy 50.8 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6989a34c-c304-4fb1-98fd-bda3654d5ce3")
-	)
-	(wire
-		(pts
 			(xy 52.07 102.87) (xy 52.07 105.41)
 		)
 		(stroke
@@ -1845,7 +2069,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 170.18) (xy 54.61 170.18)
+			(xy 46.99 177.8) (xy 54.61 177.8)
 		)
 		(stroke
 			(width 0)
@@ -1945,7 +2169,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 128.27) (xy 50.8 128.27)
+			(xy 38.1 127) (xy 38.1 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1955,7 +2179,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 170.18) (xy 58.42 172.72)
+			(xy 58.42 177.8) (xy 58.42 180.34)
 		)
 		(stroke
 			(width 0)
@@ -1965,7 +2189,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 143.51) (xy 50.8 143.51)
+			(xy 44.45 156.21) (xy 50.8 156.21)
 		)
 		(stroke
 			(width 0)
@@ -1975,7 +2199,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 167.64) (xy 62.23 170.18)
+			(xy 62.23 175.26) (xy 62.23 177.8)
 		)
 		(stroke
 			(width 0)
@@ -1985,7 +2209,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 167.64) (xy 54.61 170.18)
+			(xy 54.61 175.26) (xy 54.61 177.8)
 		)
 		(stroke
 			(width 0)
@@ -2646,7 +2870,7 @@
 		(uuid "447a0a07-0766-40fc-b99e-d0926ff931fc")
 	)
 	(label "VBAT"
-		(at 45.72 128.27 0)
+		(at 38.1 125.73 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2665,8 +2889,18 @@
 		)
 		(uuid "67eab630-2972-46da-8895-120790948b6a")
 	)
+	(label "VIN"
+		(at 45.72 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "82044081-8991-4213-b27f-0e5921f51955")
+	)
 	(label "VBAT"
-		(at 45.72 140.97 0)
+		(at 45.72 153.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2685,25 +2919,15 @@
 		)
 		(uuid "9de9fe55-0f6f-46f1-bafb-554f3f7b3771")
 	)
-	(label "SDA"
-		(at 73.66 87.63 180)
+	(label "LEVEL"
+		(at 66.04 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "cc67aaad-f129-419d-a176-a7fe5fb82971")
-	)
-	(label "US_TX_B"
-		(at 73.66 80.01 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d5856f47-d66d-4a7d-bd87-4b119737d36d")
+		(uuid "c4f15485-9740-45da-a9f0-7f500d6248ec")
 	)
 	(label "VIN"
 		(at 49.53 43.18 270)
@@ -2714,36 +2938,6 @@
 			(justify right bottom)
 		)
 		(uuid "e684ca55-1a84-4578-a063-e9af821ce8ce")
-	)
-	(label "SCL"
-		(at 73.66 90.17 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e6d6e6d0-bf87-4c31-9076-49fb4bc7581e")
-	)
-	(label "US_TX_A"
-		(at 73.66 77.47 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ed6dfe77-be81-44d1-8bd2-85c8e620b758")
-	)
-	(label "US_RX"
-		(at 73.66 82.55 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f56d2452-6d3c-44e6-bbf3-1dce60e2ae1a")
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
@@ -4117,7 +4311,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 46.99 165.1 0)
+		(at 46.99 172.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4128,7 +4322,7 @@
 		(fields_autoplaced yes)
 		(uuid "629fe330-8fbc-4f01-adb5-89fd8dc3b19a")
 		(property "Reference" "H1"
-			(at 49.53 162.56 0)
+			(at 49.53 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4139,7 +4333,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 49.53 165.1 0)
+			(at 49.53 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4151,7 +4345,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad_TopBottom"
-			(at 46.99 165.1 0)
+			(at 46.99 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4162,7 +4356,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 165.1 0)
+			(at 46.99 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4173,7 +4367,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 46.99 165.1 0)
+			(at 46.99 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4196,7 +4390,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 69.85 165.1 0)
+		(at 69.85 172.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4207,7 +4401,7 @@
 		(fields_autoplaced yes)
 		(uuid "68a572a9-2207-42f6-bb04-a670891549ec")
 		(property "Reference" "H4"
-			(at 72.39 162.56 0)
+			(at 72.39 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4218,7 +4412,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 72.39 165.1 0)
+			(at 72.39 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4230,7 +4424,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad_TopBottom"
-			(at 69.85 165.1 0)
+			(at 69.85 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4241,7 +4435,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 165.1 0)
+			(at 69.85 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4252,7 +4446,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 69.85 165.1 0)
+			(at 69.85 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4275,7 +4469,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 62.23 165.1 0)
+		(at 62.23 172.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4286,7 +4480,7 @@
 		(fields_autoplaced yes)
 		(uuid "736cc9ea-5431-4d93-9481-24476c23c46d")
 		(property "Reference" "H3"
-			(at 64.77 162.56 0)
+			(at 64.77 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4297,7 +4491,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 64.77 165.1 0)
+			(at 64.77 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4309,7 +4503,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad_TopBottom"
-			(at 62.23 165.1 0)
+			(at 62.23 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4320,7 +4514,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 165.1 0)
+			(at 62.23 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4331,7 +4525,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 62.23 165.1 0)
+			(at 62.23 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4506,7 +4700,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 54.61 165.1 0)
+		(at 54.61 172.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4517,7 +4711,7 @@
 		(fields_autoplaced yes)
 		(uuid "7fd5aae9-4646-4ce8-951b-6929bd9da59d")
 		(property "Reference" "H2"
-			(at 57.15 162.56 0)
+			(at 57.15 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4528,7 +4722,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 57.15 165.1 0)
+			(at 57.15 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4540,7 +4734,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad_TopBottom"
-			(at 54.61 165.1 0)
+			(at 54.61 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4551,7 +4745,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 165.1 0)
+			(at 54.61 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4562,7 +4756,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.61 165.1 0)
+			(at 54.61 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4661,7 +4855,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 39.37 140.97 0)
+		(at 39.37 153.67 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -4672,7 +4866,7 @@
 		(dnp no)
 		(uuid "8290b122-0c0a-4b6d-9aac-4fbf27ae0fd8")
 		(property "Reference" "J3"
-			(at 35.56 140.97 0)
+			(at 35.56 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4683,7 +4877,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 39.37 146.05 0)
+			(at 39.37 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4693,7 +4887,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal"
-			(at 39.37 140.97 0)
+			(at 39.37 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4704,7 +4898,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 140.97 0)
+			(at 39.37 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4715,7 +4909,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 39.37 140.97 0)
+			(at 39.37 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5300,7 +5494,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 58.42 172.72 0)
+		(at 58.42 180.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5311,7 +5505,7 @@
 		(fields_autoplaced yes)
 		(uuid "b3417c32-d6d2-4e8c-abf2-4f9aa391d7b2")
 		(property "Reference" "#PWR021"
-			(at 58.42 179.07 0)
+			(at 58.42 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5322,7 +5516,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 58.42 177.8 0)
+			(at 58.42 185.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5332,7 +5526,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 172.72 0)
+			(at 58.42 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5343,7 +5537,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 172.72 0)
+			(at 58.42 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5354,7 +5548,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 172.72 0)
+			(at 58.42 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5453,7 +5647,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 50.8 130.81 90)
+		(at 38.1 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5464,7 +5658,7 @@
 		(fields_autoplaced yes)
 		(uuid "c7d7e3cd-65cc-4f83-bd98-234be6abd005")
 		(property "Reference" "#PWR019"
-			(at 57.15 130.81 0)
+			(at 38.1 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5475,18 +5669,18 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 54.61 130.81 90)
+			(at 40.64 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 130.81 0)
+			(at 38.1 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5497,7 +5691,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 130.81 0)
+			(at 38.1 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5508,7 +5702,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 130.81 0)
+			(at 38.1 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5911,6 +6105,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 38.1 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de7efcf5-8be8-41ef-9379-7dfe99c43174")
+		(property "Reference" "BT1"
+			(at 41.91 128.9684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 41.91 131.5084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Battery:BatteryHolder_MPD_BA9VPC_1xPP3"
+			(at 38.1 130.556 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 130.556 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 38.1 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 38.1 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "DC"
+			(at 38.1 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 38.1 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4aa40395-a7a8-4d9a-90d2-b6a384406470")
+		)
+		(pin "1"
+			(uuid "acd23e4a-fae7-4d6a-8f33-28763c14fe5f")
+		)
+		(instances
+			(project ""
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 76.2 62.23 270)
 		(unit 1)
@@ -5981,87 +6290,6 @@
 			(project "ultrasonic-pcb"
 				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
 					(reference "T3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 39.37 128.27 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ecb2c4fc-4cbc-44af-b866-960b94d930c3")
-		(property "Reference" "J2"
-			(at 35.56 128.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 39.37 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal"
-			(at 39.37 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 39.37 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c8146ccb-d95c-4b46-aaad-a2669965bc3b")
-		)
-		(pin "2"
-			(uuid "0d42549c-014e-40ff-b109-8721a0d6186d")
-		)
-		(instances
-			(project "water-level-pressure"
-				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
-					(reference "J2")
 					(unit 1)
 				)
 			)
