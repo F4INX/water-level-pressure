@@ -4430,6 +4430,16 @@
 				)
 			)
 		)
+		(property "LCSC" "C5160787"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "4fe1a344-a794-4df3-bb09-3011fbfb0206")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/e367628a-4bcc-4bbf-893c-a4968ee0a09f")
 		(sheetname "/")
