@@ -9,6 +9,735 @@
 		(company "F4INX")
 	)
 	(lib_symbols
+		(symbol "Connector:Conn_01x15_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x15_Socket"
+				(at 0 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x15, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x15_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 17.78) (xy -0.508 17.78)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 15.24) (xy -0.508 15.24)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 12.7) (xy -0.508 12.7)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 10.16) (xy -0.508 10.16)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 7.62) (xy -0.508 7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy -0.508 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -0.508 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -7.62) (xy -0.508 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -10.16) (xy -0.508 -10.16)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -12.7) (xy -0.508 -12.7)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -15.24) (xy -0.508 -15.24)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -17.78) (xy -0.508 -17.78)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 17.272)
+					(mid -0.5058 17.78)
+					(end 0 18.288)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 14.732)
+					(mid -0.5058 15.24)
+					(end 0 15.748)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 12.192)
+					(mid -0.5058 12.7)
+					(end 0 13.208)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 9.652)
+					(mid -0.5058 10.16)
+					(end 0 10.668)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 7.112)
+					(mid -0.5058 7.62)
+					(end 0 8.128)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 4.572)
+					(mid -0.5058 5.08)
+					(end 0 5.588)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 2.032)
+					(mid -0.5058 2.54)
+					(end 0 3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -5.588)
+					(mid -0.5058 -5.08)
+					(end 0 -4.572)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -8.128)
+					(mid -0.5058 -7.62)
+					(end 0 -7.112)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -10.668)
+					(mid -0.5058 -10.16)
+					(end 0 -9.652)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -13.208)
+					(mid -0.5058 -12.7)
+					(end 0 -12.192)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -15.748)
+					(mid -0.5058 -15.24)
+					(end 0 -14.732)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -18.288)
+					(mid -0.5058 -17.78)
+					(end 0 -17.272)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 17.78 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 15.24 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 12.7 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 10.16 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 3.81)
+					(name "Pin_12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -12.7 0)
+					(length 3.81)
+					(name "Pin_13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -15.24 0)
+					(length 3.81)
+					(name "Pin_14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -17.78 0)
+					(length 3.81)
+					(name "Pin_15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -917,648 +1646,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MCU_Module:Arduino_Nano_Every"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "A"
-				(at -10.16 23.495 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "Arduino_Nano_Every"
-				(at 5.08 -24.13 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "Module:Arduino_Nano"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Datasheet" "https://content.arduino.cc/assets/NANOEveryV3.0_sch.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Arduino Nano Every"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Arduino nano microcontroller module USB UPDI AATMega4809 AVR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Arduino*Nano*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Arduino_Nano_Every_0_1"
-				(rectangle
-					(start -10.16 22.86)
-					(end 10.16 -22.86)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "Arduino_Nano_Every_1_1"
-				(pin bidirectional line
-					(at -12.7 20.32 0)
-					(length 2.54)
-					(name "TX1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 17.78 0)
-					(length 2.54)
-					(name "RX1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 15.24 180)
-					(length 2.54)
-					(name "~{RESET}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -25.4 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 12.7 0)
-					(length 2.54)
-					(name "D2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 10.16 0)
-					(length 2.54)
-					(name "D3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 7.62 0)
-					(length 2.54)
-					(name "D4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 5.08 0)
-					(length 2.54)
-					(name "D5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 2.54 0)
-					(length 2.54)
-					(name "D6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 0 0)
-					(length 2.54)
-					(name "D7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 -2.54 0)
-					(length 2.54)
-					(name "D8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 -5.08 0)
-					(length 2.54)
-					(name "D9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 -7.62 0)
-					(length 2.54)
-					(name "D10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 -12.7 0)
-					(length 2.54)
-					(name "MOSI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 -15.24 0)
-					(length 2.54)
-					(name "MISO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 -17.78 0)
-					(length 2.54)
-					(name "SCK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 2.54 25.4 270)
-					(length 2.54)
-					(name "3V3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 5.08 180)
-					(length 2.54)
-					(name "AREF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 0 180)
-					(length 2.54)
-					(name "A0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -2.54 180)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -5.08 180)
-					(length 2.54)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -7.62 180)
-					(length 2.54)
-					(name "A3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -10.16 180)
-					(length 2.54)
-					(name "SDA/A4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -12.7 180)
-					(length 2.54)
-					(name "SCL/A5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -15.24 180)
-					(length 2.54)
-					(name "A6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -17.78 180)
-					(length 2.54)
-					(name "A7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 5.08 25.4 270)
-					(length 2.54)
-					(name "+5V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 12.7 180)
-					(length 2.54)
-					(name "~{RESET}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -25.4 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "29"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 25.4 270)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "30"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
@@ -1951,11 +2038,15 @@
 		)
 		(uuid "4599089f-79cc-4997-b8f4-4dee4326e2ba")
 	)
-	(junction
-		(at 100.33 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1a25f1a9-48ef-4383-afd6-fdd28e3bc2a7")
+	(text "ARDUINO CONNECTORS"
+		(exclude_from_sim no)
+		(at 102.87 49.276 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6ef89caa-c753-472c-b96f-ccf6f39afc84")
 	)
 	(junction
 		(at 142.24 182.88)
@@ -1970,38 +2061,28 @@
 		(uuid "2cded276-f9b0-4ae7-a9b1-2900cb901336")
 	)
 	(junction
-		(at 107.95 49.53)
+		(at 85.09 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "46970693-24e0-4d27-a01b-30aa089dd07c")
+		(uuid "5237d4b0-a51b-4a1e-8095-a9fdf65ddeae")
 	)
 	(junction
-		(at 102.87 107.95)
+		(at 118.11 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a315f8b2-a7a9-43db-9dd8-5b1f09be7bfc")
+		(uuid "bd3180f0-a36b-41cc-97eb-b40cd7fd0e2e")
+	)
+	(junction
+		(at 120.65 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8a4c50c-744c-4b2d-9b5a-52ac63302019")
 	)
 	(junction
 		(at 134.62 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d9802c77-5832-4e3e-9ddb-9646eae4be6a")
-	)
-	(junction
-		(at 102.87 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ecd016d0-d275-49f0-8d4b-3006bd86ce7f")
-	)
-	(wire
-		(pts
-			(xy 90.17 95.25) (xy 81.28 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00b6a352-fa15-49d2-bfa7-2f423c2a19df")
 	)
 	(wire
 		(pts
@@ -2012,16 +2093,6 @@
 			(type default)
 		)
 		(uuid "0351aa10-8400-4c8b-9d55-4aeb440f6ce9")
-	)
-	(wire
-		(pts
-			(xy 115.57 90.17) (xy 127 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07146de3-99b6-4606-b7c3-9657e63e26b7")
 	)
 	(wire
 		(pts
@@ -2065,7 +2136,17 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 62.23) (xy 127 62.23)
+			(xy 124.46 59.69) (xy 120.65 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11bad1a7-c460-4ce3-a515-7f43553080aa")
+	)
+	(wire
+		(pts
+			(xy 81.28 62.23) (xy 85.09 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2075,7 +2156,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 92.71) (xy 127 92.71)
+			(xy 115.57 69.85) (xy 124.46 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2085,7 +2166,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 95.25) (xy 127 95.25)
+			(xy 115.57 67.31) (xy 124.46 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2095,7 +2176,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 87.63) (xy 127 87.63)
+			(xy 115.57 74.93) (xy 124.46 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2105,7 +2186,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 67.31) (xy 81.28 67.31)
+			(xy 90.17 69.85) (xy 81.28 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2165,7 +2246,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 64.77) (xy 127 64.77)
+			(xy 115.57 62.23) (xy 124.46 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2205,23 +2286,13 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 72.39) (xy 127 72.39)
+			(xy 115.57 87.63) (xy 124.46 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "499f8b62-7906-4262-a3fb-16188e743100")
-	)
-	(wire
-		(pts
-			(xy 100.33 52.07) (xy 100.33 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "504597f9-b2fc-4cd0-abd3-f9e7184fd95b")
 	)
 	(wire
 		(pts
@@ -2245,17 +2316,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 49.53) (xy 107.95 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b2f78d5-d666-4c1c-9132-95c31bc0dfbf")
-	)
-	(wire
-		(pts
-			(xy 115.57 85.09) (xy 127 85.09)
+			(xy 115.57 77.47) (xy 124.46 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2265,7 +2326,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 80.01) (xy 81.28 80.01)
+			(xy 90.17 82.55) (xy 81.28 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2275,17 +2336,17 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 102.87) (xy 102.87 105.41)
+			(xy 120.65 59.69) (xy 115.57 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6d91cc6b-50f4-4092-86da-38cba5e44d44")
+		(uuid "6e97fd4d-2878-4bf7-a681-2391fef01ea4")
 	)
 	(wire
 		(pts
-			(xy 90.17 72.39) (xy 81.28 72.39)
+			(xy 90.17 74.93) (xy 81.28 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2295,13 +2356,13 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 49.53) (xy 100.33 43.18)
+			(xy 115.57 57.15) (xy 124.46 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "73f5113f-a4ae-454f-93b1-7e75c25df479")
+		(uuid "761fed0e-52b1-4960-ba73-3a9f11ad941d")
 	)
 	(wire
 		(pts
@@ -2315,27 +2376,27 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 107.95) (xy 102.87 105.41)
+			(xy 124.46 64.77) (xy 118.11 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "80d4cf35-1567-4bba-a8da-d543d09471b9")
+		(uuid "8419eebe-0690-4cd8-9706-acce757c0da2")
 	)
 	(wire
 		(pts
-			(xy 100.33 49.53) (xy 97.79 49.53)
+			(xy 115.57 92.71) (xy 124.46 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "84538b42-304f-489a-96bd-94745899a46f")
+		(uuid "875081ee-9555-4a75-8921-12d62ff7f2a2")
 	)
 	(wire
 		(pts
-			(xy 90.17 77.47) (xy 81.28 77.47)
+			(xy 90.17 80.01) (xy 81.28 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2345,7 +2406,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 64.77) (xy 81.28 64.77)
+			(xy 90.17 67.31) (xy 81.28 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2355,7 +2416,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 80.01) (xy 127 80.01)
+			(xy 115.57 82.55) (xy 124.46 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2365,17 +2426,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 110.49) (xy 102.87 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96c15a6c-c907-4975-9042-016891c92d62")
-	)
-	(wire
-		(pts
-			(xy 90.17 82.55) (xy 81.28 82.55)
+			(xy 90.17 85.09) (xy 81.28 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2385,7 +2436,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 77.47) (xy 127 77.47)
+			(xy 115.57 85.09) (xy 124.46 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2395,13 +2446,13 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 49.53) (xy 110.49 49.53)
+			(xy 115.57 72.39) (xy 124.46 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "99f25350-5336-41eb-8519-813676f266cd")
+		(uuid "9a4629e1-87a5-4330-9aeb-ed94c7fa366c")
 	)
 	(wire
 		(pts
@@ -2412,6 +2463,16 @@
 			(type default)
 		)
 		(uuid "a2234b51-e676-4307-85f5-4621d4a79faf")
+	)
+	(wire
+		(pts
+			(xy 81.28 64.77) (xy 90.17 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2f4182c-dd99-4846-9956-8c019d6e54a1")
 	)
 	(wire
 		(pts
@@ -2455,7 +2516,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 85.09) (xy 81.28 85.09)
+			(xy 90.17 87.63) (xy 81.28 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2465,7 +2526,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 69.85) (xy 81.28 69.85)
+			(xy 90.17 72.39) (xy 81.28 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2475,7 +2536,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 82.55) (xy 127 82.55)
+			(xy 115.57 80.01) (xy 124.46 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2485,7 +2546,17 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 46.99) (xy 105.41 52.07)
+			(xy 85.09 62.23) (xy 90.17 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cca9a659-e5d1-4f8f-8d4a-4c55b8d5ceca")
+	)
+	(wire
+		(pts
+			(xy 124.46 90.17) (xy 115.57 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2525,7 +2596,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 46.99) (xy 107.95 49.53)
+			(xy 118.11 64.77) (xy 115.57 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2535,7 +2606,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 74.93) (xy 81.28 74.93)
+			(xy 90.17 77.47) (xy 81.28 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3115,6 +3186,16 @@
 		)
 		(uuid "1286ca5d-cf95-44c1-b44f-a99ecb2020f1")
 	)
+	(label "VIN"
+		(at 116.84 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1ef32ef1-b5bf-4088-b82b-588ad8585ce9")
+	)
 	(label "RX"
 		(at 81.28 59.69 0)
 		(effects
@@ -3156,7 +3237,7 @@
 		(uuid "82044081-8991-4213-b27f-0e5921f51955")
 	)
 	(label "SCL"
-		(at 116.84 90.17 0)
+		(at 116.84 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3186,7 +3267,7 @@
 		(uuid "9de9fe55-0f6f-46f1-bafb-554f3f7b3771")
 	)
 	(label "SDA"
-		(at 116.84 87.63 0)
+		(at 116.84 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3196,7 +3277,7 @@
 		(uuid "bd089826-5acb-43f9-bd61-0cff717a7136")
 	)
 	(label "LEVEL"
-		(at 116.84 77.47 0)
+		(at 116.84 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3215,23 +3296,13 @@
 		)
 		(uuid "e531dc3e-3235-4e06-8418-a96c6dc3caa8")
 	)
-	(label "VIN"
-		(at 100.33 43.18 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e684ca55-1a84-4578-a063-e9af821ce8ce")
-	)
 	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 81.28 59.69 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -3289,6 +3360,17 @@
 				)
 			)
 		)
+		(property "Field4" "${REFERENCE}"
+			(at 81.28 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "20e12d14-b1f8-466d-a197-8e13dd6c4742")
 		)
@@ -3307,7 +3389,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -3365,6 +3447,17 @@
 				)
 			)
 		)
+		(property "Field4" "${REFERENCE}"
+			(at 81.28 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4170f543-9b0b-4779-80ae-31b3bdce71d0")
 		)
@@ -3379,168 +3472,16 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 81.28 67.31 90)
+		(at 81.28 69.85 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0abddf49-cea1-4bde-ba9d-244d083cf24f")
 		(property "Reference" "T6"
-			(at 74.93 67.31 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 77.978 64.77 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
-			(at 81.28 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 81.28 67.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "45f73328-ae57-4654-a5d3-9b9ab8260144")
-		)
-		(instances
-			(project "ultrasonic-pcb"
-				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
-					(reference "T6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 127 72.39 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0fd85e5b-a5f5-416c-bd5c-b3f6fd396e44")
-		(property "Reference" "T18"
-			(at 133.35 72.39 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 130.302 74.93 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
-			(at 127 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 127 72.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "680eedb9-a382-405b-a200-e9b3ef1f2232")
-		)
-		(instances
-			(project "ultrasonic-pcb"
-				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
-					(reference "T18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 81.28 69.85 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "116a1e45-77ab-48c8-8c0c-31ac8e278de1")
-		(property "Reference" "T7"
 			(at 74.93 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3593,6 +3534,191 @@
 				)
 			)
 		)
+		(property "Field4" "${REFERENCE}"
+			(at 81.28 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "45f73328-ae57-4654-a5d3-9b9ab8260144")
+		)
+		(instances
+			(project "ultrasonic-pcb"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "T6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 124.46 87.63 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0fd85e5b-a5f5-416c-bd5c-b3f6fd396e44")
+		(property "Reference" "T18"
+			(at 130.81 87.63 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 127.762 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+			(at 124.46 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "${REFERENCE}"
+			(at 124.46 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "680eedb9-a382-405b-a200-e9b3ef1f2232")
+		)
+		(instances
+			(project "ultrasonic-pcb"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "T18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 81.28 72.39 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "116a1e45-77ab-48c8-8c0c-31ac8e278de1")
+		(property "Reference" "T7"
+			(at 74.93 72.39 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 77.978 69.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+			(at 81.28 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "${REFERENCE}"
+			(at 81.28 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "989ff422-aec0-4168-9e33-83a19a068d74")
 		)
@@ -3607,17 +3733,17 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 105.41 46.99 0)
+		(at 124.46 90.17 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "11ce592e-c016-4749-81eb-c370b5c1b345")
 		(property "Reference" "T17"
-			(at 105.41 40.64 90)
+			(at 130.81 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3627,7 +3753,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 107.95 43.688 90)
+			(at 127.762 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3638,7 +3764,7 @@
 			)
 		)
 		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
-			(at 110.49 46.99 0)
+			(at 124.46 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3649,7 +3775,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 46.99 0)
+			(at 124.46 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3660,7 +3786,18 @@
 			)
 		)
 		(property "Description" ""
-			(at 105.41 46.99 0)
+			(at 124.46 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "${REFERENCE}"
+			(at 124.46 90.17 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3687,7 +3824,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -3745,6 +3882,17 @@
 				)
 			)
 		)
+		(property "Field4" "${REFERENCE}"
+			(at 81.28 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "62bcd02a-8a03-469c-bc64-dd1cc6240ceb")
 		)
@@ -3759,17 +3907,17 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 127 92.71 270)
+		(at 124.46 69.85 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "184f8cc5-d106-4287-b3b0-8b1064ab9780")
 		(property "Reference" "T25"
-			(at 133.35 92.71 90)
+			(at 130.81 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3779,7 +3927,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 130.302 95.25 90)
+			(at 127.762 72.39 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3790,7 +3938,7 @@
 			)
 		)
 		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
-			(at 127 97.79 0)
+			(at 124.46 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3801,7 +3949,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 97.79 0)
+			(at 124.46 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3812,7 +3960,18 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 92.71 0)
+			(at 124.46 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "${REFERENCE}"
+			(at 124.46 69.85 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3835,17 +3994,17 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 81.28 64.77 90)
+		(at 81.28 67.31 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2049006e-ea4d-432a-adcb-d07f0dcee1ea")
 		(property "Reference" "T5"
-			(at 74.93 64.77 90)
+			(at 74.93 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3855,7 +4014,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 77.978 62.23 90)
+			(at 77.978 64.77 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3866,7 +4025,7 @@
 			)
 		)
 		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
-			(at 81.28 59.69 0)
+			(at 81.28 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3877,7 +4036,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 59.69 0)
+			(at 81.28 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3888,7 +4047,18 @@
 			)
 		)
 		(property "Description" ""
-			(at 81.28 64.77 0)
+			(at 81.28 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "${REFERENCE}"
+			(at 81.28 67.31 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3911,94 +4081,17 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 97.79 49.53 90)
-		(mirror x)
+		(at 124.46 82.55 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2304180b-6819-4ae2-8514-dc9e860cc8d3")
-		(property "Reference" "T30"
-			(at 91.44 49.53 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 94.488 52.07 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
-			(at 97.79 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 97.79 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "80da4194-16a7-4810-a16b-1f5cda311982")
-		)
-		(instances
-			(project "ultrasonic-pcb"
-				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
-					(reference "T30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 127 80.01 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2694119f-90d1-4170-9f3d-92c07c82995a")
 		(property "Reference" "T20"
-			(at 133.35 80.01 90)
+			(at 130.81 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4008,7 +4101,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 130.302 82.55 90)
+			(at 127.762 85.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4019,7 +4112,7 @@
 			)
 		)
 		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
-			(at 127 85.09 0)
+			(at 124.46 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4030,7 +4123,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 85.09 0)
+			(at 124.46 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4041,7 +4134,18 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 80.01 0)
+			(at 124.46 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "${REFERENCE}"
+			(at 124.46 82.55 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4064,17 +4168,17 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 81.28 95.25 90)
+		(at 81.28 77.47 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "34890a94-5f2b-438c-a3cd-cc994625a0e0")
-		(property "Reference" "T16"
-			(at 74.93 95.25 90)
+		(uuid "355c0eb1-3a8c-4227-b5b5-529e1fcba0d7")
+		(property "Reference" "T9"
+			(at 74.93 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4084,7 +4188,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 77.978 92.71 90)
+			(at 77.978 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4095,7 +4199,7 @@
 			)
 		)
 		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
-			(at 81.28 90.17 0)
+			(at 81.28 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4106,7 +4210,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 90.17 0)
+			(at 81.28 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4117,7 +4221,18 @@
 			)
 		)
 		(property "Description" ""
-			(at 81.28 95.25 0)
+			(at 81.28 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "${REFERENCE}"
+			(at 81.28 77.47 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4127,12 +4242,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "8445657c-e769-4cfa-9eea-f41447d89830")
+			(uuid "e49001b9-0ed0-4990-83e1-8b5c762e7f7e")
 		)
 		(instances
 			(project "ultrasonic-pcb"
 				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
-					(reference "T16")
+					(reference "T9")
 					(unit 1)
 				)
 			)
@@ -4144,12 +4259,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "355c0eb1-3a8c-4227-b5b5-529e1fcba0d7")
-		(property "Reference" "T9"
+		(uuid "3dbc900a-3bce-4006-aa5d-364d4ed1ba3d")
+		(property "Reference" "T8"
 			(at 74.93 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4202,74 +4317,9 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "e49001b9-0ed0-4990-83e1-8b5c762e7f7e")
-		)
-		(instances
-			(project "ultrasonic-pcb"
-				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
-					(reference "T9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 81.28 72.39 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3dbc900a-3bce-4006-aa5d-364d4ed1ba3d")
-		(property "Reference" "T8"
-			(at 74.93 72.39 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 77.978 69.85 90)
+		(property "Field4" "${REFERENCE}"
+			(at 81.28 74.93 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
-			(at 81.28 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 81.28 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4292,17 +4342,17 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 81.28 82.55 90)
+		(at 81.28 85.09 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3ec62dc6-5efc-49cf-ade2-832494ddadd5")
 		(property "Reference" "T12"
-			(at 74.93 82.55 90)
+			(at 74.93 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4312,7 +4362,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 77.978 80.01 90)
+			(at 77.978 82.55 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4323,7 +4373,7 @@
 			)
 		)
 		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
-			(at 81.28 77.47 0)
+			(at 81.28 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4334,7 +4384,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 77.47 0)
+			(at 81.28 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4345,7 +4395,18 @@
 			)
 		)
 		(property "Description" ""
-			(at 81.28 82.55 0)
+			(at 81.28 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "${REFERENCE}"
+			(at 81.28 85.09 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4368,17 +4429,17 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 127 90.17 270)
+		(at 124.46 72.39 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "420d43a4-0fbc-43f0-b5a4-b7d1337bb737")
 		(property "Reference" "T24"
-			(at 133.35 90.17 90)
+			(at 130.81 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4388,7 +4449,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 130.302 92.71 90)
+			(at 127.762 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4399,7 +4460,7 @@
 			)
 		)
 		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
-			(at 127 95.25 0)
+			(at 124.46 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4410,7 +4471,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 95.25 0)
+			(at 124.46 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4421,7 +4482,18 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 90.17 0)
+			(at 124.46 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "${REFERENCE}"
+			(at 124.46 72.39 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4444,17 +4516,17 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 127 87.63 270)
+		(at 124.46 74.93 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4d0f04e7-4878-4793-841b-9db8b92e5ccb")
 		(property "Reference" "T23"
-			(at 133.35 87.63 90)
+			(at 130.81 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4464,7 +4536,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 130.302 90.17 90)
+			(at 127.762 77.47 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4475,7 +4547,7 @@
 			)
 		)
 		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
-			(at 127 92.71 0)
+			(at 124.46 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4486,7 +4558,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 92.71 0)
+			(at 124.46 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4497,7 +4569,18 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 87.63 0)
+			(at 124.46 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "${REFERENCE}"
+			(at 124.46 74.93 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4601,7 +4684,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -4662,6 +4745,17 @@
 				)
 			)
 		)
+		(property "Field4" "${REFERENCE}"
+			(at 127 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4cc8ab9e-6fa0-4013-b780-acc308878ef1")
 		)
@@ -4675,12 +4769,229 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x15_Socket")
+		(at 110.49 74.93 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "667f3a91-e45f-482a-b3d4-2eac59236bda")
+		(property "Reference" "J5"
+			(at 109.22 76.2001 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x15_Socket"
+			(at 110.49 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical"
+			(at 110.49 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x15, script generated"
+			(at 110.49 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C124408"
+			(at 109.22 76.2001 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "12"
+			(uuid "00bb011f-c397-42ff-9233-7be740fb4a73")
+		)
+		(pin "14"
+			(uuid "033cd052-9baf-4710-a534-863437e12a7d")
+		)
+		(pin "13"
+			(uuid "516e777d-4b80-497b-aa9b-65abc84538c2")
+		)
+		(pin "15"
+			(uuid "95664db0-e760-49c1-84db-9bae58802b8e")
+		)
+		(pin "2"
+			(uuid "cffffab9-7804-40f5-a5aa-94efbf938de5")
+		)
+		(pin "9"
+			(uuid "231bcbd5-9b74-4ed4-a106-b3b719e7ee1d")
+		)
+		(pin "5"
+			(uuid "0290bd99-5c9a-4287-a684-5074b15f0341")
+		)
+		(pin "10"
+			(uuid "bbfa199f-ba02-4139-9949-e4c0c1bbbc21")
+		)
+		(pin "1"
+			(uuid "23261baa-7570-4ddf-a2b0-3e91d2d8c345")
+		)
+		(pin "3"
+			(uuid "098860fd-eed4-4821-8ba9-d0c23832152a")
+		)
+		(pin "11"
+			(uuid "0a96b0bd-b1a1-4305-a6e6-2fd700f8a457")
+		)
+		(pin "4"
+			(uuid "d99b2987-097a-4efd-92b6-1b830b0451b3")
+		)
+		(pin "6"
+			(uuid "acf733ac-bda0-462a-af07-1cac46f63d95")
+		)
+		(pin "7"
+			(uuid "599ab738-2127-4a57-99da-26e0d599260c")
+		)
+		(pin "8"
+			(uuid "2a326794-7ef5-4e1a-8f32-5aea0d2affaa")
+		)
+		(instances
+			(project "water-level-pressure"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 124.46 59.69 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "686b6dfe-9010-4175-aa67-f5d5bf08afe9")
+		(property "Reference" "T29"
+			(at 130.81 59.69 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 127.762 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+			(at 124.46 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "${REFERENCE}"
+			(at 124.46 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "373d8781-08e1-40ed-b379-5a40e76f8548")
+		)
+		(instances
+			(project "water-level-pressure"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "T29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 149.86 177.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -4741,6 +5052,17 @@
 				)
 			)
 		)
+		(property "Field4" "${REFERENCE}"
+			(at 149.86 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ec053156-e6d0-40ef-a156-bf9f55ba3c6b")
 		)
@@ -4754,12 +5076,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 81.28 64.77 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6aeccf4d-0447-4e65-b60f-c556726a5521")
+		(property "Reference" "T4"
+			(at 74.93 64.77 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 77.978 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+			(at 81.28 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "${REFERENCE}"
+			(at 81.28 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7e3a42b7-8961-4983-bf2a-0dac01ad9561")
+		)
+		(instances
+			(project "water-level-pressure"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "T4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 142.24 177.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -4820,6 +5229,17 @@
 				)
 			)
 		)
+		(property "Field4" "${REFERENCE}"
+			(at 142.24 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "30b719f6-c9b0-4e9b-8e94-988c14f9fd0f")
 		)
@@ -4834,17 +5254,17 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 127 64.77 270)
+		(at 124.46 62.23 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "74db8c20-8b8f-4556-872d-995e807b8007")
 		(property "Reference" "T28"
-			(at 133.35 64.77 90)
+			(at 130.81 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4854,7 +5274,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 130.302 67.31 90)
+			(at 127.762 64.77 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4865,7 +5285,7 @@
 			)
 		)
 		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
-			(at 127 69.85 0)
+			(at 124.46 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4876,7 +5296,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 69.85 0)
+			(at 124.46 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4887,7 +5307,18 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 64.77 0)
+			(at 124.46 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "${REFERENCE}"
+			(at 124.46 62.23 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4910,17 +5341,17 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 81.28 80.01 90)
+		(at 81.28 82.55 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "797fec98-2dff-40d7-a7a8-0c8433e4a74d")
 		(property "Reference" "T11"
-			(at 74.93 80.01 90)
+			(at 74.93 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4930,7 +5361,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 77.978 77.47 90)
+			(at 77.978 80.01 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4941,7 +5372,7 @@
 			)
 		)
 		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
-			(at 81.28 74.93 0)
+			(at 81.28 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4952,7 +5383,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 74.93 0)
+			(at 81.28 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4963,7 +5394,18 @@
 			)
 		)
 		(property "Description" ""
-			(at 81.28 80.01 0)
+			(at 81.28 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "${REFERENCE}"
+			(at 81.28 82.55 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4990,7 +5432,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -5051,6 +5493,17 @@
 				)
 			)
 		)
+		(property "Field4" "${REFERENCE}"
+			(at 134.62 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "928d8ff2-812b-4471-a2ef-aa4c636fb118")
 		)
@@ -5065,17 +5518,17 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 127 77.47 270)
+		(at 124.46 85.09 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "806946b9-98c7-420a-a856-980023ec4d75")
 		(property "Reference" "T19"
-			(at 133.35 77.47 90)
+			(at 130.81 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5085,7 +5538,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 130.302 80.01 90)
+			(at 127.762 87.63 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5096,7 +5549,7 @@
 			)
 		)
 		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
-			(at 127 82.55 0)
+			(at 124.46 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5107,7 +5560,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 82.55 0)
+			(at 124.46 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5118,7 +5571,18 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 77.47 0)
+			(at 124.46 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "${REFERENCE}"
+			(at 124.46 85.09 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5207,11 +5671,13 @@
 		)
 		(property "LCSC" "C699496"
 			(at 100.33 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5231,17 +5697,17 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 127 95.25 270)
+		(at 124.46 67.31 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "84abc831-36e7-4cbe-a076-3f7e9185d9f9")
 		(property "Reference" "T26"
-			(at 133.35 95.25 90)
+			(at 130.81 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5251,7 +5717,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 130.302 97.79 90)
+			(at 127.762 69.85 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5262,7 +5728,7 @@
 			)
 		)
 		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
-			(at 127 100.33 0)
+			(at 124.46 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5273,7 +5739,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 100.33 0)
+			(at 124.46 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5284,7 +5750,18 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 95.25 0)
+			(at 124.46 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "${REFERENCE}"
+			(at 124.46 67.31 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5300,6 +5777,94 @@
 			(project "ultrasonic-pcb"
 				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
 					(reference "T26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 124.46 57.15 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8575e856-47c1-4050-a8ba-fcf8b45d8371")
+		(property "Reference" "T30"
+			(at 130.81 57.15 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 127.762 54.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+			(at 124.46 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "${REFERENCE}"
+			(at 124.46 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7a7bbe5f-0b85-49ee-9a24-8e7b18fcb9c1")
+		)
+		(instances
+			(project "water-level-pressure"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "T30")
 					(unit 1)
 				)
 			)
@@ -5385,8 +5950,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 110.49 49.53 270)
+		(lib_id "power:GND")
+		(at 85.09 62.23 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5394,19 +5959,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "90769a18-6c58-4d7a-bd83-cab63ed5e983")
-		(property "Reference" "T27"
-			(at 116.84 49.53 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 113.792 52.07 90)
+		(uuid "8b9a1f0a-f852-45f2-9872-79224a10d8b5")
+		(property "Reference" "#PWR05"
+			(at 78.74 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5416,8 +5971,19 @@
 				)
 			)
 		)
-		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
-			(at 110.49 54.61 0)
+		(property "Value" "GND"
+			(at 84.074 61.214 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5428,7 +5994,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 54.61 0)
+			(at 85.09 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5439,7 +6005,94 @@
 			)
 		)
 		(property "Description" ""
-			(at 110.49 49.53 0)
+			(at 85.09 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "99932a00-e9ae-4631-b14d-280d3203e949")
+		)
+		(instances
+			(project "water-level-pressure"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 124.46 64.77 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "90769a18-6c58-4d7a-bd83-cab63ed5e983")
+		(property "Reference" "T27"
+			(at 130.81 64.77 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 127.762 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+			(at 124.46 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "${REFERENCE}"
+			(at 124.46 64.77 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5461,174 +6114,8 @@
 		)
 	)
 	(symbol
-		(lib_id "MCU_Module:Arduino_Nano_Every")
-		(at 102.87 77.47 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "90bc1880-5ee2-4eca-8d2b-818e71da508f")
-		(property "Reference" "A1"
-			(at 105.0641 102.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Arduino_Nano_Every"
-			(at 105.0641 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Module:Arduino_Nano"
-			(at 102.87 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://content.arduino.cc/assets/NANOEveryV3.0_sch.pdf"
-			(at 102.87 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 102.87 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b41401b7-468c-4214-a0f3-56ddb061008f")
-		)
-		(pin "10"
-			(uuid "152a75f5-c19b-4bdd-a369-c3c97248d702")
-		)
-		(pin "11"
-			(uuid "d6adbb4b-2224-4d31-9f48-14dc7d3a7fc9")
-		)
-		(pin "12"
-			(uuid "3500d7a0-ec7b-45dc-b668-fa0815798cf6")
-		)
-		(pin "13"
-			(uuid "e22ff124-69c2-4314-ad1c-ad8e91cb7e01")
-		)
-		(pin "14"
-			(uuid "199aa39b-788b-4f6a-89d1-bd2007ea1375")
-		)
-		(pin "15"
-			(uuid "01dae4e0-6093-4692-af1c-af68ad4a05a0")
-		)
-		(pin "16"
-			(uuid "e69e99f9-d31d-4ceb-9fcd-4a254c270e07")
-		)
-		(pin "17"
-			(uuid "8ec1ce92-86f2-4222-85e3-993bd0b755e5")
-		)
-		(pin "18"
-			(uuid "6ef68a6b-4ba5-4141-bf81-b090f1f98654")
-		)
-		(pin "19"
-			(uuid "cc8d31bf-66b4-44ca-bd4d-06a1244ff092")
-		)
-		(pin "2"
-			(uuid "ffbac555-432d-45c8-a0b0-34c4a279e4a8")
-		)
-		(pin "20"
-			(uuid "b81142ff-19ce-4f9b-b221-0a97c154b60b")
-		)
-		(pin "21"
-			(uuid "57c73cfa-2019-4767-89e8-069d6c120a81")
-		)
-		(pin "22"
-			(uuid "c805f5dd-ad22-4f8c-9578-67c0d88a4690")
-		)
-		(pin "23"
-			(uuid "22c61ea4-5c50-4a4f-bd38-9f125a844ff1")
-		)
-		(pin "24"
-			(uuid "fa2e1fbc-48db-4cbb-aedb-dae319e5b3e1")
-		)
-		(pin "25"
-			(uuid "b92d06cc-9e44-44d9-896d-5eac68875222")
-		)
-		(pin "26"
-			(uuid "751301f2-ea14-4b1a-81dd-dfef0e31799f")
-		)
-		(pin "27"
-			(uuid "bcc8559a-9d94-4018-a5ef-971de6ec1299")
-		)
-		(pin "28"
-			(uuid "0c3d12b8-8065-47c3-9c2a-d41ad3f04a9c")
-		)
-		(pin "29"
-			(uuid "b34ca894-c339-4008-9329-34f3ee54b451")
-		)
-		(pin "3"
-			(uuid "ec0a2dca-daaa-4f18-9084-c7eaf0e2c8db")
-		)
-		(pin "30"
-			(uuid "71cf604c-8ff2-44b8-9371-61052498e5c0")
-		)
-		(pin "4"
-			(uuid "9fac74fc-ed10-4b30-833b-cb9792700b0e")
-		)
-		(pin "5"
-			(uuid "966715d7-ae0c-4c6c-8068-37c5c8fef77b")
-		)
-		(pin "6"
-			(uuid "a35faec0-1b54-465c-acc8-64e77d106edb")
-		)
-		(pin "7"
-			(uuid "9869daa7-5ac0-4685-bebf-a4cee1f80793")
-		)
-		(pin "8"
-			(uuid "bef3daf8-052b-47f0-a1af-7ad6c7856288")
-		)
-		(pin "9"
-			(uuid "62b22024-917f-4ecf-b1ad-af755981cd0e")
-		)
-		(instances
-			(project "ultrasonic-pcb"
-				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
-					(reference "A1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
-		(at 107.95 46.99 0)
+		(at 118.11 64.77 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5636,10 +6123,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "93ae1274-63fc-4956-8497-3dd6744051e9")
 		(property "Reference" "#PWR03"
-			(at 107.95 50.8 0)
+			(at 114.3 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5650,7 +6136,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 107.95 41.91 0)
+			(at 122.682 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5660,7 +6146,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 46.99 0)
+			(at 118.11 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5671,7 +6157,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 46.99 0)
+			(at 118.11 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5682,7 +6168,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 107.95 46.99 0)
+			(at 118.11 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5927,11 +6413,13 @@
 		)
 		(property "LCSC" "C691850"
 			(at 190.5 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6031,17 +6519,17 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 127 82.55 270)
+		(at 124.46 80.01 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bbfa36bd-f3ac-430d-b7c4-9c555003136c")
 		(property "Reference" "T21"
-			(at 133.35 82.55 90)
+			(at 130.81 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6051,7 +6539,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 130.302 85.09 90)
+			(at 127.762 82.55 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6062,7 +6550,7 @@
 			)
 		)
 		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
-			(at 127 87.63 0)
+			(at 124.46 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6073,7 +6561,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 87.63 0)
+			(at 124.46 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6084,7 +6572,18 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 82.55 0)
+			(at 124.46 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "${REFERENCE}"
+			(at 124.46 80.01 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6184,12 +6683,142 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x15_Socket")
+		(at 95.25 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c883d119-fe65-4208-b918-38cc17d224a9")
+		(property "Reference" "J4"
+			(at 96.52 73.6599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x15_Socket"
+			(at 95.25 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical"
+			(at 95.25 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x15, script generated"
+			(at 95.25 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C124408"
+			(at 96.52 73.6599 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "12"
+			(uuid "8887f9a3-f9a2-47b4-99ad-9df35c8d8bae")
+		)
+		(pin "14"
+			(uuid "3cf97ca7-07ab-417e-bb06-e9399d9c148c")
+		)
+		(pin "13"
+			(uuid "6bab8b0e-5ebe-467c-b7e3-88616552787f")
+		)
+		(pin "15"
+			(uuid "11d468ab-ce64-4f45-9e2d-5353373575b5")
+		)
+		(pin "2"
+			(uuid "e9e54bd8-a8ab-4c0c-8900-5d76c49c9612")
+		)
+		(pin "9"
+			(uuid "c8408254-dc28-4662-a895-8809bc912673")
+		)
+		(pin "5"
+			(uuid "9ed933c7-744b-41d8-8ce8-7d0c84422577")
+		)
+		(pin "10"
+			(uuid "87ded3cd-d312-4e5a-9654-3683f5458ca5")
+		)
+		(pin "1"
+			(uuid "4dfe3035-0698-4707-8433-682f0c23f4f0")
+		)
+		(pin "3"
+			(uuid "40a2c6ed-b304-4dde-81b6-b5c8cc081703")
+		)
+		(pin "11"
+			(uuid "3b9c025e-cb3d-49a5-b680-73f18dce639b")
+		)
+		(pin "4"
+			(uuid "0019f878-89a6-4de4-b317-5db262778f0c")
+		)
+		(pin "6"
+			(uuid "8ef1c5c3-6937-4b5b-8dbb-c4283eedd42d")
+		)
+		(pin "7"
+			(uuid "a0e2eef2-3800-4872-9897-2a841c789dd7")
+		)
+		(pin "8"
+			(uuid "933e5db4-ef5c-4574-bfc9-427683dbc024")
+		)
+		(instances
+			(project ""
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 81.28 90.17 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -6247,6 +6876,17 @@
 				)
 			)
 		)
+		(property "Field4" "${REFERENCE}"
+			(at 81.28 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bf6ffae8-5423-4131-93df-1827f3c7b1a4")
 		)
@@ -6261,17 +6901,17 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 81.28 85.09 90)
+		(at 81.28 87.63 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d15f9fe6-4098-4c2b-855d-b473cc08d107")
 		(property "Reference" "T13"
-			(at 74.93 85.09 90)
+			(at 74.93 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6281,7 +6921,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 77.978 82.55 90)
+			(at 77.978 85.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6292,7 +6932,7 @@
 			)
 		)
 		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
-			(at 81.28 80.01 0)
+			(at 81.28 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6303,7 +6943,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 80.01 0)
+			(at 81.28 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6314,7 +6954,18 @@
 			)
 		)
 		(property "Description" ""
-			(at 81.28 85.09 0)
+			(at 81.28 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "${REFERENCE}"
+			(at 81.28 87.63 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6337,93 +6988,17 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 102.87 107.95 90)
+		(at 124.46 77.47 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d4039703-fe01-4397-9fb1-ba5256ea40ba")
-		(property "Reference" "T29"
-			(at 96.52 107.95 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 99.568 105.41 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
-			(at 102.87 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 102.87 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 102.87 107.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9e81eef8-cb8e-4262-83ff-4aa6822dbbdc")
-		)
-		(instances
-			(project "ultrasonic-pcb"
-				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
-					(reference "T29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 127 85.09 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d4e40995-8efc-486c-aab5-fd91c90436e0")
 		(property "Reference" "T22"
-			(at 133.35 85.09 90)
+			(at 130.81 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6433,7 +7008,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 130.302 87.63 90)
+			(at 127.762 80.01 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6444,7 +7019,7 @@
 			)
 		)
 		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
-			(at 127 90.17 0)
+			(at 124.46 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6455,7 +7030,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 90.17 0)
+			(at 124.46 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6466,7 +7041,18 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 85.09 0)
+			(at 124.46 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "${REFERENCE}"
+			(at 124.46 77.47 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6488,89 +7074,12 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 102.87 110.49 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d9060715-377d-4279-ac3f-59d3c93bb418")
-		(property "Reference" "#PWR05"
-			(at 102.87 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 102.87 115.57 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 102.87 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 102.87 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 102.87 110.49 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9e160a51-3862-4a28-9b3b-67f871ef4b0b")
-		)
-		(instances
-			(project "ultrasonic-pcb"
-				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Battery_Cell")
 		(at 102.87 135.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -6666,11 +7175,13 @@
 		)
 		(property "LCSC" "C5556545"
 			(at 106.68 132.7784 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6690,17 +7201,17 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 127 62.23 270)
+		(at 81.28 62.23 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "de894419-f9ec-4015-8408-2cfe99cb8cb8")
 		(property "Reference" "T3"
-			(at 133.35 62.23 90)
+			(at 74.93 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6710,7 +7221,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 130.302 64.77 90)
+			(at 77.978 59.69 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6721,7 +7232,7 @@
 			)
 		)
 		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
-			(at 127 67.31 0)
+			(at 81.28 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6732,7 +7243,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 67.31 0)
+			(at 81.28 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6743,7 +7254,18 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 62.23 0)
+			(at 81.28 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "${REFERENCE}"
+			(at 81.28 62.23 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6759,6 +7281,93 @@
 			(project "ultrasonic-pcb"
 				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
 					(reference "T3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 124.46 92.71 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e177bd02-cc43-459a-bbcb-ad681e4a235b")
+		(property "Reference" "T16"
+			(at 130.81 92.71 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 127.762 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+			(at 124.46 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "${REFERENCE}"
+			(at 124.46 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "41c74bf6-dd19-491c-968d-3e2a37f37d4f")
+		)
+		(instances
+			(project "water-level-pressure"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "T16")
 					(unit 1)
 				)
 			)
@@ -6831,11 +7440,13 @@
 		)
 		(property "LCSC" "C5160787"
 			(at 190.5 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6861,17 +7472,17 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 81.28 77.47 90)
+		(at 81.28 80.01 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ef6f69c3-067f-40ee-a53b-26e55bf3dc3b")
 		(property "Reference" "T10"
-			(at 74.93 77.47 90)
+			(at 74.93 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6881,7 +7492,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 77.978 74.93 90)
+			(at 77.978 77.47 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6892,7 +7503,7 @@
 			)
 		)
 		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
-			(at 81.28 72.39 0)
+			(at 81.28 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6903,7 +7514,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 72.39 0)
+			(at 81.28 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6914,7 +7525,18 @@
 			)
 		)
 		(property "Description" ""
-			(at 81.28 77.47 0)
+			(at 81.28 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "${REFERENCE}"
+			(at 81.28 80.01 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6936,8 +7558,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 102.87 105.41 90)
+		(lib_id "power:GND")
+		(at 120.65 59.69 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6945,19 +7567,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f109c991-34fd-47d2-9cea-6d111469e639")
-		(property "Reference" "T4"
-			(at 96.52 105.41 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 99.568 102.87 90)
+		(uuid "f3ec8c75-f702-4807-b294-a327639f5ca1")
+		(property "Reference" "#PWR07"
+			(at 127 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6967,8 +7579,19 @@
 				)
 			)
 		)
-		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
-			(at 102.87 100.33 0)
+		(property "Value" "GND"
+			(at 121.666 60.706 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6979,7 +7602,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 100.33 0)
+			(at 120.65 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6990,7 +7613,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 102.87 105.41 0)
+			(at 120.65 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7000,12 +7623,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a04f77e1-5acb-4811-a1bb-50d1d580cbfe")
+			(uuid "a8fa592f-377c-4bc9-8357-ca2cd31eff96")
 		)
 		(instances
-			(project "ultrasonic-pcb"
+			(project "water-level-pressure"
 				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
-					(reference "T4")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)

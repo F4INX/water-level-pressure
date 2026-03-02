@@ -1,4 +1,6 @@
 Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
-J1,Conn_01x03,"TerminalBlock_Phoenix_MPT-0,5-3-2.54_1x03_P2.54mm_Horizontal",203.983,-125.222,-90.0,top
-J2,Conn_01x04,PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Left,204.603,-99.712,0.0,top
+J1,Conn_01x03,"TerminalBlock_Phoenix_MPT-0,5-3-2.54_1x03_P2.54mm_Horizontal",203.983,-125.222,90.0,top
+J2,Conn_01x04,PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Left,204.603,-99.712,90.0,top
 J3,Conn_01x02,"TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal",123.553,-119.262,90.0,top
+J4,Conn_01x15_Socket,PinSocket_1x15_P2.54mm_Vertical,150.2945,-112.506513,270.0,top
+J5,Conn_01x15_Socket,PinSocket_1x15_P2.54mm_Vertical,135.0545,-112.522,90.0,top
