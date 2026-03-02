@@ -1,5 +1,4 @@
 Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
-BT1,Battery_Cell,BatteryHolder_MPD_BA9VPC_1xPP3,174.458,-118.4395,90.0,top
 H1,MountingHole_Pad,MountingHole_4.3mm_M4_Pad_TopBottom,121.92,-86.36,180.0,top
 H2,MountingHole_Pad,MountingHole_4.3mm_M4_Pad_TopBottom,204.978,-87.122,180.0,top
 H3,MountingHole_Pad,MountingHole_4.3mm_M4_Pad_TopBottom,204.978,-137.16,0.0,top
