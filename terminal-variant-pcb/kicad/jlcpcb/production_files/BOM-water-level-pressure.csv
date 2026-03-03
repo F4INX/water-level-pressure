@@ -1,5 +1,5 @@
 Comment,Designator,Footprint,LCSC,Quantity
 Conn_01x02,J3,"TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal",C699496,1
 Conn_01x03,J1,"TerminalBlock_Phoenix_MPT-0,5-3-2.54_1x03_P2.54mm_Horizontal",C691850,1
-Conn_01x04,J2,PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Left,C5160787,1
+Conn_01x04,J2,PinHeader_1x04_P2.54mm_Vertical,C124378,1
 Conn_01x15_Socket,"J4,J5",PinSocket_1x15_P2.54mm_Vertical,C124408,2

@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,10.0.0-rc1.1*%
-%TF.CreationDate,2026-03-03T07:54:50+01:00*%
+%TF.CreationDate,2026-03-05T18:52:27+01:00*%
 %TF.ProjectId,water-level-pressure,77617465-722d-46c6-9576-656c2d707265,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Legend,Bot*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 10.0.0-rc1.1) date 2026-03-03 07:54:50*
+G04 Created by KiCad (PCBNEW 10.0.0-rc1.1) date 2026-03-05 18:52:27*
 %MOMM*%
 %LPD*%
 G01*
@@ -161,6 +161,14 @@ X131562000Y-94742000D03*
 %TD*%
 %TO.C,T1*%
 X153787000Y-130302000D03*
+%TD*%
+D11*
+%TO.C,J2*%
+X205110972Y-95892131D03*
+D12*
+X205110972Y-98432131D03*
+X205110972Y-100972131D03*
+X205110972Y-103512131D03*
 %TD*%
 D19*
 %TO.C,BT1*%
