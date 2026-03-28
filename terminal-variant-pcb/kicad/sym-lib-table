@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "water-level-pressure") (type "KiCad") (uri "${KIPRJMOD}/water-level-pressure.kicad_sym") (options "") (descr ""))
+)
