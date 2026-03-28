@@ -6628,7 +6628,7 @@
 			(justify right)
 		)
 	)
-	(gr_text "WATER LEVEL SENSOR 0.3\nF4INX 2026-03-28"
+	(gr_text "WATER LEVEL SENSOR 0.4\nF4INX 2026-03-28"
 		(at 129.23297 109.451056 90)
 		(layer "F.SilkS")
 		(uuid "e45439d4-64be-43d7-b599-178d0815aa72")
@@ -6641,7 +6641,7 @@
 		)
 	)
 	(gr_text "LCD"
-		(at 194.80339 99.812581 90)
+		(at 194.80339 98.542581 90)
 		(layer "F.SilkS")
 		(uuid "3a6dd1c5-694e-4104-a5d7-a6fd72a03877")
 		(effects
@@ -6987,14 +6987,6 @@
 		(uuid "cd39af2c-e418-454d-b3bc-a8d48f3a5f4e")
 	)
 	(segment
-		(start 199.136 120.65)
-		(end 186.69 133.096)
-		(width 1)
-		(layer "F.Cu")
-		(net "+5V")
-		(uuid "02f13493-7f8a-4619-a357-13e7f83d5444")
-	)
-	(segment
 		(start 205.110972 98.432131)
 		(end 205.874131 98.432131)
 		(width 1)
@@ -7003,8 +6995,32 @@
 		(uuid "03da0f3a-d7c5-4f7e-b883-6a46f47866d1")
 	)
 	(segment
+		(start 188.722 110.49)
+		(end 166.116 133.096)
+		(width 1)
+		(layer "F.Cu")
+		(net "+5V")
+		(uuid "045f60f4-2c0a-4f3f-8adf-dcc0d7b07b4e")
+	)
+	(segment
+		(start 207.264 110.49)
+		(end 188.722 110.49)
+		(width 1)
+		(layer "F.Cu")
+		(net "+5V")
+		(uuid "29d9589a-662c-499e-af35-d865c71de0e1")
+	)
+	(segment
+		(start 166.116 133.096)
+		(end 145.4685 133.096)
+		(width 1)
+		(layer "F.Cu")
+		(net "+5V")
+		(uuid "3d6e3c6b-d6e7-4d6d-a789-cff92e3ac33f")
+	)
+	(segment
 		(start 207.264 99.822)
-		(end 207.264 120.396)
+		(end 207.264 110.49)
 		(width 1)
 		(layer "F.Cu")
 		(net "+5V")
@@ -7019,20 +7035,12 @@
 		(uuid "56554ef5-02c1-4cc4-a529-328fa069ef91")
 	)
 	(segment
-		(start 202.946 120.65)
-		(end 199.136 120.65)
+		(start 207.264 110.49)
+		(end 207.264 120.396)
 		(width 1)
 		(layer "F.Cu")
 		(net "+5V")
-		(uuid "5ff1cfd9-a791-43a3-a09c-fec36cc6a421")
-	)
-	(segment
-		(start 204.978 122.682)
-		(end 202.946 120.65)
-		(width 1)
-		(layer "F.Cu")
-		(net "+5V")
-		(uuid "7030f087-1917-4f23-8656-51136c7826c2")
+		(uuid "6f21ff40-94be-4ec1-9ed3-437ee5b7f4ff")
 	)
 	(segment
 		(start 207.264 120.396)
@@ -7041,14 +7049,6 @@
 		(layer "F.Cu")
 		(net "+5V")
 		(uuid "abee1f55-a0ab-4ff5-96ca-25cf36ceb68a")
-	)
-	(segment
-		(start 186.69 133.096)
-		(end 145.4685 133.096)
-		(width 1)
-		(layer "F.Cu")
-		(net "+5V")
-		(uuid "b4ba0534-83fa-43f4-9087-20a3710d1815")
 	)
 	(segment
 		(start 145.4685 133.096)
