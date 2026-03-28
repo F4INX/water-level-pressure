@@ -1,11 +1,11 @@
 (kicad_sch
-	(version 20260101)
+	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "33d3a90e-7f26-4b1c-8a5f-63dc17339015")
 	(paper "A4")
 	(title_block
-		(title "Ultrasonic sensor board 3.0")
+		(title "Water level sensor 0.5")
 		(company "F4INX")
 	)
 	(lib_symbols
@@ -3328,7 +3328,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
 			(at 81.28 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -3375,7 +3375,7 @@
 			(uuid "20e12d14-b1f8-466d-a197-8e13dd6c4742")
 		)
 		(instances
-			(project "ultrasonic-pcb"
+			(project "water-level-pressure"
 				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
 					(reference "T2")
 					(unit 1)
@@ -3415,7 +3415,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
 			(at 81.28 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -3462,7 +3462,7 @@
 			(uuid "4170f543-9b0b-4779-80ae-31b3bdce71d0")
 		)
 		(instances
-			(project "ultrasonic-pcb"
+			(project "water-level-pressure"
 				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
 					(reference "T1")
 					(unit 1)
@@ -3502,7 +3502,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
 			(at 81.28 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -3549,7 +3549,7 @@
 			(uuid "45f73328-ae57-4654-a5d3-9b9ab8260144")
 		)
 		(instances
-			(project "ultrasonic-pcb"
+			(project "water-level-pressure"
 				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
 					(reference "T6")
 					(unit 1)
@@ -3589,7 +3589,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
 			(at 124.46 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -3636,7 +3636,7 @@
 			(uuid "680eedb9-a382-405b-a200-e9b3ef1f2232")
 		)
 		(instances
-			(project "ultrasonic-pcb"
+			(project "water-level-pressure"
 				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
 					(reference "T18")
 					(unit 1)
@@ -3676,7 +3676,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
 			(at 81.28 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -3723,7 +3723,7 @@
 			(uuid "989ff422-aec0-4168-9e33-83a19a068d74")
 		)
 		(instances
-			(project "ultrasonic-pcb"
+			(project "water-level-pressure"
 				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
 					(reference "T7")
 					(unit 1)
@@ -3763,7 +3763,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
 			(at 124.46 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -3810,7 +3810,7 @@
 			(uuid "1b948415-49c7-47f7-b37c-33299c487e61")
 		)
 		(instances
-			(project "ultrasonic-pcb"
+			(project "water-level-pressure"
 				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
 					(reference "T17")
 					(unit 1)
@@ -3850,7 +3850,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
 			(at 81.28 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -3897,7 +3897,7 @@
 			(uuid "62bcd02a-8a03-469c-bc64-dd1cc6240ceb")
 		)
 		(instances
-			(project "ultrasonic-pcb"
+			(project "water-level-pressure"
 				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
 					(reference "T15")
 					(unit 1)
@@ -3937,7 +3937,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
 			(at 124.46 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -3984,7 +3984,7 @@
 			(uuid "20b72a92-c462-4e56-8404-15949aa8d772")
 		)
 		(instances
-			(project "ultrasonic-pcb"
+			(project "water-level-pressure"
 				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
 					(reference "T25")
 					(unit 1)
@@ -4024,7 +4024,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
 			(at 81.28 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -4071,7 +4071,7 @@
 			(uuid "ea1af910-63c3-402e-a33d-cc0b113789f6")
 		)
 		(instances
-			(project "ultrasonic-pcb"
+			(project "water-level-pressure"
 				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
 					(reference "T5")
 					(unit 1)
@@ -4111,7 +4111,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
 			(at 124.46 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -4158,9 +4158,105 @@
 			(uuid "6f232f76-979f-47d6-bc66-8a7170419938")
 		)
 		(instances
-			(project "ultrasonic-pcb"
+			(project "water-level-pressure"
 				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
 					(reference "T20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 186.69 106.68 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "294b5e03-cb54-4823-a8d9-fce523f58dde")
+		(property "Reference" "J1"
+			(at 190.5 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 190.5 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-3-2.54_1x03_P2.54mm_Horizontal"
+			(at 186.69 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 186.69 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C691850"
+			(at 190.5 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b8a973f7-b990-446f-94a3-e7b08f0ab77b")
+		)
+		(pin "2"
+			(uuid "85b9a55e-02b6-419a-a0d1-746234b1bfa3")
+		)
+		(pin "3"
+			(uuid "89ff1555-7735-463e-92f2-4c902f1c781d")
+		)
+		(instances
+			(project "water-level-pressure"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -4198,7 +4294,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
 			(at 81.28 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -4245,7 +4341,7 @@
 			(uuid "e49001b9-0ed0-4990-83e1-8b5c762e7f7e")
 		)
 		(instances
-			(project "ultrasonic-pcb"
+			(project "water-level-pressure"
 				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
 					(reference "T9")
 					(unit 1)
@@ -4285,7 +4381,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
 			(at 81.28 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -4332,7 +4428,7 @@
 			(uuid "6ea4c4db-58ce-4b72-8c2f-699fb0072cf7")
 		)
 		(instances
-			(project "ultrasonic-pcb"
+			(project "water-level-pressure"
 				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
 					(reference "T8")
 					(unit 1)
@@ -4372,7 +4468,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
 			(at 81.28 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -4419,7 +4515,7 @@
 			(uuid "dfb623ab-47f5-40ff-b306-cead4c12f05e")
 		)
 		(instances
-			(project "ultrasonic-pcb"
+			(project "water-level-pressure"
 				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
 					(reference "T12")
 					(unit 1)
@@ -4459,7 +4555,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
 			(at 124.46 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -4506,7 +4602,7 @@
 			(uuid "7d7bfcf3-897f-4cd2-b731-7a4b2399c751")
 		)
 		(instances
-			(project "ultrasonic-pcb"
+			(project "water-level-pressure"
 				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
 					(reference "T24")
 					(unit 1)
@@ -4546,7 +4642,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
 			(at 124.46 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -4593,7 +4689,7 @@
 			(uuid "44aa500f-eee5-4757-878c-2d0bc6e787ad")
 		)
 		(instances
-			(project "ultrasonic-pcb"
+			(project "water-level-pressure"
 				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
 					(reference "T23")
 					(unit 1)
@@ -4760,7 +4856,7 @@
 			(uuid "4cc8ab9e-6fa0-4013-b780-acc308878ef1")
 		)
 		(instances
-			(project "ultrasonic-pcb"
+			(project "water-level-pressure"
 				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
 					(reference "H1")
 					(unit 1)
@@ -4930,7 +5026,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
 			(at 124.46 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -5067,7 +5163,7 @@
 			(uuid "ec053156-e6d0-40ef-a156-bf9f55ba3c6b")
 		)
 		(instances
-			(project "ultrasonic-pcb"
+			(project "water-level-pressure"
 				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
 					(reference "H4")
 					(unit 1)
@@ -5107,7 +5203,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
 			(at 81.28 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -5244,7 +5340,7 @@
 			(uuid "30b719f6-c9b0-4e9b-8e94-988c14f9fd0f")
 		)
 		(instances
-			(project "ultrasonic-pcb"
+			(project "water-level-pressure"
 				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
 					(reference "H3")
 					(unit 1)
@@ -5284,7 +5380,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
 			(at 124.46 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -5331,7 +5427,7 @@
 			(uuid "7c76ef3a-000b-4504-8184-fc51f1211879")
 		)
 		(instances
-			(project "ultrasonic-pcb"
+			(project "water-level-pressure"
 				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
 					(reference "T28")
 					(unit 1)
@@ -5371,7 +5467,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
 			(at 81.28 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -5418,7 +5514,7 @@
 			(uuid "2b54900d-1f3c-43fa-b06e-0089907a1afd")
 		)
 		(instances
-			(project "ultrasonic-pcb"
+			(project "water-level-pressure"
 				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
 					(reference "T11")
 					(unit 1)
@@ -5508,7 +5604,7 @@
 			(uuid "928d8ff2-812b-4471-a2ef-aa4c636fb118")
 		)
 		(instances
-			(project "ultrasonic-pcb"
+			(project "water-level-pressure"
 				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
 					(reference "H2")
 					(unit 1)
@@ -5548,7 +5644,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
 			(at 124.46 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -5595,101 +5691,9 @@
 			(uuid "34ec713a-c551-40dc-b324-1d3f5b6bc3f0")
 		)
 		(instances
-			(project "ultrasonic-pcb"
-				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
-					(reference "T19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 104.14 157.48 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8290b122-0c0a-4b6d-9aac-4fbf27ae0fd8")
-		(property "Reference" "J3"
-			(at 100.33 157.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 104.14 162.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal"
-			(at 104.14 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 104.14 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C699496"
-			(at 100.33 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6f901ae3-c362-432b-83b4-7e1dafc98bc1")
-		)
-		(pin "2"
-			(uuid "47c3365f-ded7-4da7-9392-27792193d473")
-		)
-		(instances
 			(project "water-level-pressure"
 				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
-					(reference "J3")
+					(reference "T19")
 					(unit 1)
 				)
 			)
@@ -5727,7 +5731,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
 			(at 124.46 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -5774,7 +5778,7 @@
 			(uuid "77392f6f-ced4-4fc5-aa03-f2f43288f696")
 		)
 		(instances
-			(project "ultrasonic-pcb"
+			(project "water-level-pressure"
 				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
 					(reference "T26")
 					(unit 1)
@@ -5815,7 +5819,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
 			(at 124.46 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -6058,7 +6062,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
 			(at 124.46 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -6105,7 +6109,7 @@
 			(uuid "a9d8f9af-b27e-4e4d-9ca6-58a6f9be0146")
 		)
 		(instances
-			(project "ultrasonic-pcb"
+			(project "water-level-pressure"
 				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
 					(reference "T27")
 					(unit 1)
@@ -6181,7 +6185,7 @@
 			(uuid "6df33b3c-f306-461a-a751-b1e9e9fb27a8")
 		)
 		(instances
-			(project "ultrasonic-pcb"
+			(project "water-level-pressure"
 				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
 					(reference "#PWR03")
 					(unit 1)
@@ -6260,7 +6264,7 @@
 			(uuid "500664d8-d1bd-47dc-9d9a-774c67221da4")
 		)
 		(instances
-			(project "ultrasonic-pcb"
+			(project "water-level-pressure"
 				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
 					(reference "#PWR018")
 					(unit 1)
@@ -6346,101 +6350,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 186.69 106.68 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b1f56bd0-0482-4661-82a8-dae384382b28")
-		(property "Reference" "J1"
-			(at 190.5 106.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x03"
-			(at 190.5 109.22 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-3-2.54_1x03_P2.54mm_Horizontal"
-			(at 186.69 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 186.69 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C691850"
-			(at 190.5 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "781bb9c6-7abd-4c18-b116-05ee1e0c4eec")
-		)
-		(pin "2"
-			(uuid "7e7ca620-a1fe-45aa-9bd9-86736e4d2efb")
-		)
-		(pin "3"
-			(uuid "43b474bb-245c-4c8d-a557-4a7c284ba338")
-		)
-		(instances
-			(project "ultrasonic-pcb"
-				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 138.43 185.42 0)
 		(unit 1)
@@ -6509,7 +6418,7 @@
 			(uuid "1ed5ca97-14c6-4664-bd9b-aad029b3aeb5")
 		)
 		(instances
-			(project "ultrasonic-pcb"
+			(project "water-level-pressure"
 				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
 					(reference "#PWR021")
 					(unit 1)
@@ -6549,7 +6458,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
 			(at 124.46 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -6596,7 +6505,7 @@
 			(uuid "5d0b280e-9515-4774-a7d1-b9b471bf90e7")
 		)
 		(instances
-			(project "ultrasonic-pcb"
+			(project "water-level-pressure"
 				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
 					(reference "T21")
 					(unit 1)
@@ -6804,7 +6713,7 @@
 			(uuid "933e5db4-ef5c-4574-bfc9-427683dbc024")
 		)
 		(instances
-			(project ""
+			(project "water-level-pressure"
 				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
 					(reference "J4")
 					(unit 1)
@@ -6844,7 +6753,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
 			(at 81.28 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -6891,7 +6800,7 @@
 			(uuid "bf6ffae8-5423-4131-93df-1827f3c7b1a4")
 		)
 		(instances
-			(project "ultrasonic-pcb"
+			(project "water-level-pressure"
 				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
 					(reference "T14")
 					(unit 1)
@@ -6931,7 +6840,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
 			(at 81.28 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -6978,9 +6887,100 @@
 			(uuid "f141f34d-ab16-4f68-8a78-b6ff30923aa4")
 		)
 		(instances
-			(project "ultrasonic-pcb"
+			(project "water-level-pressure"
 				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
 					(reference "T13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 104.14 160.02 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d4435324-3772-41b0-b00b-b51968c88954")
+		(property "Reference" "J3"
+			(at 100.33 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 104.14 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal"
+			(at 104.14 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 104.14 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C699496"
+			(at 100.33 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ae3dc444-a109-4ad9-9437-52b81c3c0c46")
+		)
+		(pin "2"
+			(uuid "b25461df-b4ef-4b2c-97f4-bda11bcb9266")
+		)
+		(instances
+			(project "water-level-pressure"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -7018,7 +7018,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
 			(at 124.46 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -7065,7 +7065,7 @@
 			(uuid "766a311d-1c8b-4ef1-9f18-9a26537faad3")
 		)
 		(instances
-			(project "ultrasonic-pcb"
+			(project "water-level-pressure"
 				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
 					(reference "T22")
 					(unit 1)
@@ -7191,7 +7191,7 @@
 			(uuid "acd23e4a-fae7-4d6a-8f33-28763c14fe5f")
 		)
 		(instances
-			(project ""
+			(project "water-level-pressure"
 				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
 					(reference "BT1")
 					(unit 1)
@@ -7231,7 +7231,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
 			(at 81.28 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -7278,7 +7278,7 @@
 			(uuid "77f01bbd-df3d-4595-bf7e-53275fef7b5b")
 		)
 		(instances
-			(project "ultrasonic-pcb"
+			(project "water-level-pressure"
 				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
 					(reference "T3")
 					(unit 1)
@@ -7318,7 +7318,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
 			(at 124.46 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -7502,7 +7502,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ultrasonic-pcb:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
 			(at 81.28 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -7549,7 +7549,7 @@
 			(uuid "a855ec4c-6c4c-4825-a123-728a0964c887")
 		)
 		(instances
-			(project "ultrasonic-pcb"
+			(project "water-level-pressure"
 				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
 					(reference "T10")
 					(unit 1)
