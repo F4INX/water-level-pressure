@@ -1,0 +1,7643 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "33d3a90e-7f26-4b1c-8a5f-63dc17339015")
+	(paper "A4")
+	(title_block
+		(title "Water level sensor 0.5")
+		(company "F4INX")
+	)
+	(lib_symbols
+		(symbol "Connector:Conn_01x15_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x15_Socket"
+				(at 0 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x15, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x15_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 17.78) (xy -0.508 17.78)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 15.24) (xy -0.508 15.24)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 12.7) (xy -0.508 12.7)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 10.16) (xy -0.508 10.16)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 7.62) (xy -0.508 7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy -0.508 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -0.508 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -7.62) (xy -0.508 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -10.16) (xy -0.508 -10.16)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -12.7) (xy -0.508 -12.7)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -15.24) (xy -0.508 -15.24)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -17.78) (xy -0.508 -17.78)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 17.272)
+					(mid -0.5058 17.78)
+					(end 0 18.288)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 14.732)
+					(mid -0.5058 15.24)
+					(end 0 15.748)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 12.192)
+					(mid -0.5058 12.7)
+					(end 0 13.208)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 9.652)
+					(mid -0.5058 10.16)
+					(end 0 10.668)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 7.112)
+					(mid -0.5058 7.62)
+					(end 0 8.128)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 4.572)
+					(mid -0.5058 5.08)
+					(end 0 5.588)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 2.032)
+					(mid -0.5058 2.54)
+					(end 0 3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -5.588)
+					(mid -0.5058 -5.08)
+					(end 0 -4.572)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -8.128)
+					(mid -0.5058 -7.62)
+					(end 0 -7.112)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -10.668)
+					(mid -0.5058 -10.16)
+					(end 0 -9.652)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -13.208)
+					(mid -0.5058 -12.7)
+					(end 0 -12.192)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -15.748)
+					(mid -0.5058 -15.24)
+					(end 0 -14.732)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -18.288)
+					(mid -0.5058 -17.78)
+					(end 0 -17.272)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 17.78 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 15.24 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 12.7 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 10.16 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 3.81)
+					(name "Pin_12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -12.7 0)
+					(length 3.81)
+					(name "Pin_13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -15.24 0)
+					(length 3.81)
+					(name "Pin_14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -17.78 0)
+					(length 3.81)
+					(name "Pin_15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x03"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x03_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x04"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:Battery_Cell"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "BT"
+				(at 2.54 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Battery_Cell"
+				(at 2.54 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 1.524 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 1.524 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Single-cell battery"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Type" "DC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=+ 2=-"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "battery cell"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Battery_Cell_0_1"
+				(rectangle
+					(start -2.286 1.778)
+					(end 2.286 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 1.016)
+					(end 1.524 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.048) (xy 1.778 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.556) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Battery_Cell_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+5V"
+			(power global)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "+5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "9V BATTERY"
+		(exclude_from_sim no)
+		(at 90.17 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3a3557e1-2150-4307-8ff3-9ec96097bff6")
+	)
+	(text "PUSH BUTTON"
+		(exclude_from_sim no)
+		(at 90.17 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4599089f-79cc-4997-b8f4-4dee4326e2ba")
+	)
+	(text "ARDUINO CONNECTORS"
+		(exclude_from_sim no)
+		(at 102.87 49.276 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6ef89caa-c753-472c-b96f-ccf6f39afc84")
+	)
+	(junction
+		(at 142.24 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2303ab01-c4ce-4623-b9db-ed3ebe4f20b5")
+	)
+	(junction
+		(at 138.43 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2cded276-f9b0-4ae7-a9b1-2900cb901336")
+	)
+	(junction
+		(at 85.09 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5237d4b0-a51b-4a1e-8095-a9fdf65ddeae")
+	)
+	(junction
+		(at 118.11 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd3180f0-a36b-41cc-97eb-b40cd7fd0e2e")
+	)
+	(junction
+		(at 120.65 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8a4c50c-744c-4b2d-9b5a-52ac63302019")
+	)
+	(junction
+		(at 134.62 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9802c77-5832-4e3e-9ddb-9646eae4be6a")
+	)
+	(wire
+		(pts
+			(xy 138.43 182.88) (xy 142.24 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0351aa10-8400-4c8b-9d55-4aeb440f6ce9")
+	)
+	(wire
+		(pts
+			(xy 172.72 81.28) (xy 181.61 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08188831-b924-40e9-8b52-f7ccd9a0e13d")
+	)
+	(wire
+		(pts
+			(xy 90.17 57.15) (xy 81.28 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08b43fb7-a2ea-4639-9b95-5f191c5234aa")
+	)
+	(wire
+		(pts
+			(xy 127 180.34) (xy 127 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f2f9a5b-ca92-4d3b-b6ae-d7c368dba2a9")
+	)
+	(wire
+		(pts
+			(xy 181.61 109.22) (xy 175.26 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1126c1ba-8ee1-4161-9f44-72ecc0e0c5f0")
+	)
+	(wire
+		(pts
+			(xy 124.46 59.69) (xy 120.65 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11bad1a7-c460-4ce3-a515-7f43553080aa")
+	)
+	(wire
+		(pts
+			(xy 81.28 62.23) (xy 85.09 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "159f3396-e345-4f3c-b435-5721296cb87d")
+	)
+	(wire
+		(pts
+			(xy 115.57 69.85) (xy 124.46 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a269e2b-7331-48bc-a71f-406bf7900123")
+	)
+	(wire
+		(pts
+			(xy 115.57 67.31) (xy 124.46 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2406c0a1-47b6-4465-8e21-df792bf36637")
+	)
+	(wire
+		(pts
+			(xy 115.57 74.93) (xy 124.46 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24bb44fc-95f5-4948-80e9-a971509f516c")
+	)
+	(wire
+		(pts
+			(xy 90.17 69.85) (xy 81.28 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2600f7fd-33e0-4d8b-9594-8423d6e4adc2")
+	)
+	(wire
+		(pts
+			(xy 109.22 157.48) (xy 115.57 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26234765-6d3c-4261-b901-903697fdcfd6")
+	)
+	(wire
+		(pts
+			(xy 149.86 182.88) (xy 149.86 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33cb4f35-2a4f-4fda-b1b7-44bda9ecd7d4")
+	)
+	(wire
+		(pts
+			(xy 102.87 138.43) (xy 102.87 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37632dc9-2a0d-4fbc-b7c7-9e9578ed6001")
+	)
+	(wire
+		(pts
+			(xy 181.61 73.66) (xy 175.26 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b0e58cf-dfce-4aef-a658-6ebd96ce8675")
+	)
+	(wire
+		(pts
+			(xy 90.17 59.69) (xy 81.28 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41a161ff-b8a4-4ba1-9dee-6c9f01b6931b")
+	)
+	(wire
+		(pts
+			(xy 115.57 62.23) (xy 124.46 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42931e82-340a-40b9-94af-da9488451ce8")
+	)
+	(wire
+		(pts
+			(xy 142.24 182.88) (xy 149.86 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4722c993-811f-4b05-bf76-46fab0038e7f")
+	)
+	(wire
+		(pts
+			(xy 90.17 92.71) (xy 81.28 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "476c66a2-030f-4386-8637-6f1f5bdc8727")
+	)
+	(wire
+		(pts
+			(xy 134.62 182.88) (xy 138.43 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "494193a2-0197-4108-ba8f-b1f69572292f")
+	)
+	(wire
+		(pts
+			(xy 115.57 87.63) (xy 124.46 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "499f8b62-7906-4262-a3fb-16188e743100")
+	)
+	(wire
+		(pts
+			(xy 172.72 78.74) (xy 181.61 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "551fad4f-1fc8-48ad-80f1-9f4a7f76622e")
+	)
+	(wire
+		(pts
+			(xy 90.17 90.17) (xy 81.28 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a6a054b-cbfb-4b19-a943-8f297a02da9b")
+	)
+	(wire
+		(pts
+			(xy 115.57 77.47) (xy 124.46 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "696008e1-402f-4b04-a131-753091aa7cd5")
+	)
+	(wire
+		(pts
+			(xy 90.17 82.55) (xy 81.28 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6960f157-d153-4045-8daf-34e29802fba1")
+	)
+	(wire
+		(pts
+			(xy 120.65 59.69) (xy 115.57 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e97fd4d-2878-4bf7-a681-2391fef01ea4")
+	)
+	(wire
+		(pts
+			(xy 90.17 74.93) (xy 81.28 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70a6fb50-2c56-4c94-9d9c-890bcf7a659b")
+	)
+	(wire
+		(pts
+			(xy 115.57 57.15) (xy 124.46 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "761fed0e-52b1-4960-ba73-3a9f11ad941d")
+	)
+	(wire
+		(pts
+			(xy 127 182.88) (xy 134.62 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76eba557-a310-478c-ab77-8c4a93fd4c08")
+	)
+	(wire
+		(pts
+			(xy 124.46 64.77) (xy 118.11 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8419eebe-0690-4cd8-9706-acce757c0da2")
+	)
+	(wire
+		(pts
+			(xy 115.57 92.71) (xy 124.46 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "875081ee-9555-4a75-8921-12d62ff7f2a2")
+	)
+	(wire
+		(pts
+			(xy 90.17 80.01) (xy 81.28 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87b369e7-fad6-4af1-a359-6691a54e33a0")
+	)
+	(wire
+		(pts
+			(xy 90.17 67.31) (xy 81.28 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8876bb79-8b82-4657-9ae2-e4537d0ebec0")
+	)
+	(wire
+		(pts
+			(xy 115.57 82.55) (xy 124.46 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "924b5e18-2c91-432f-8864-a97b8c03531a")
+	)
+	(wire
+		(pts
+			(xy 90.17 85.09) (xy 81.28 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "980da35f-d208-4c7b-8c32-a0cd0b714b52")
+	)
+	(wire
+		(pts
+			(xy 115.57 85.09) (xy 124.46 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99a394da-b1e4-48db-a448-a2e5c33b744a")
+	)
+	(wire
+		(pts
+			(xy 115.57 72.39) (xy 124.46 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a4629e1-87a5-4330-9aeb-ed94c7fa366c")
+	)
+	(wire
+		(pts
+			(xy 102.87 130.81) (xy 102.87 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2234b51-e676-4307-85f5-4621d4a79faf")
+	)
+	(wire
+		(pts
+			(xy 81.28 64.77) (xy 90.17 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2f4182c-dd99-4846-9956-8c019d6e54a1")
+	)
+	(wire
+		(pts
+			(xy 138.43 182.88) (xy 138.43 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9b46242-dc61-4769-b8ae-f141c9b86fdc")
+	)
+	(wire
+		(pts
+			(xy 109.22 160.02) (xy 115.57 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af6bb75b-57e0-4b80-8f5f-2f7cb54b39fd")
+	)
+	(wire
+		(pts
+			(xy 142.24 180.34) (xy 142.24 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b46a9425-d6d8-43cd-9d66-fe9effab14eb")
+	)
+	(wire
+		(pts
+			(xy 134.62 180.34) (xy 134.62 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5249edc-c235-4906-8d1a-55de9606e471")
+	)
+	(wire
+		(pts
+			(xy 90.17 87.63) (xy 81.28 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdda28c5-2829-4972-be83-0b4b9585ef28")
+	)
+	(wire
+		(pts
+			(xy 90.17 72.39) (xy 81.28 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1bc38a4-e634-4ff0-9589-7fb59fa88694")
+	)
+	(wire
+		(pts
+			(xy 115.57 80.01) (xy 124.46 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c222466f-56fe-4ffb-99d0-a499a7a95e0d")
+	)
+	(wire
+		(pts
+			(xy 85.09 62.23) (xy 90.17 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cca9a659-e5d1-4f8f-8d4a-4c55b8d5ceca")
+	)
+	(wire
+		(pts
+			(xy 124.46 90.17) (xy 115.57 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2c6c73b-542d-42b5-a858-389938d7109a")
+	)
+	(wire
+		(pts
+			(xy 181.61 104.14) (xy 175.26 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e03800b2-ac6e-4b3b-9852-8581e2284526")
+	)
+	(wire
+		(pts
+			(xy 172.72 106.68) (xy 181.61 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e86feff5-9754-484b-9b87-7e8d7b34fd66")
+	)
+	(wire
+		(pts
+			(xy 181.61 76.2) (xy 175.26 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebbb72e2-5db1-4e6b-bf8b-a8035b537204")
+	)
+	(wire
+		(pts
+			(xy 118.11 64.77) (xy 115.57 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efb5f679-c512-4033-903e-1bed6eb23725")
+	)
+	(wire
+		(pts
+			(xy 90.17 77.47) (xy 81.28 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f82803ad-7f83-4628-871a-cbe164982865")
+	)
+	(image
+		(at 191.77 173.99)
+		(scale 0.150755)
+		(uuid "9d5756a6-ea7d-4660-ac4e-c1db21c53cdf")
+		(data "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"
+		)
+	)
+	(label "SCL"
+		(at 172.72 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1286ca5d-cf95-44c1-b44f-a99ecb2020f1")
+	)
+	(label "VIN"
+		(at 116.84 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1ef32ef1-b5bf-4088-b82b-588ad8585ce9")
+	)
+	(label "RX"
+		(at 81.28 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "447a0a07-0766-40fc-b99e-d0926ff931fc")
+	)
+	(label "VBAT"
+		(at 102.87 129.54 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "588b4487-04a7-4bb8-8e62-c2ddc2327c1d")
+	)
+	(label "LEVEL"
+		(at 172.72 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "67eab630-2972-46da-8895-120790948b6a")
+	)
+	(label "VIN"
+		(at 110.49 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "82044081-8991-4213-b27f-0e5921f51955")
+	)
+	(label "SCL"
+		(at 116.84 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "87f99f47-998d-4bee-9500-f6caebf941d7")
+	)
+	(label "VBAT"
+		(at 110.49 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9820be1b-8582-4068-a7c6-5fb93531f65b")
+	)
+	(label "TX"
+		(at 81.28 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9de9fe55-0f6f-46f1-bafb-554f3f7b3771")
+	)
+	(label "SDA"
+		(at 116.84 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd089826-5acb-43f9-bd61-0cff717a7136")
+	)
+	(label "LEVEL"
+		(at 116.84 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c4f15485-9740-45da-a9f0-7f500d6248ec")
+	)
+	(label "SDA"
+		(at 172.72 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e531dc3e-3235-4e06-8418-a96c6dc3caa8")
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 81.28 59.69 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "05160831-a9ab-4ff4-b46d-90cd8a302080")
+		(property "Reference" "T2"
+			(at 74.93 59.69 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 77.978 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+			(at 81.28 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "${REFERENCE}"
+			(at 81.28 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "20e12d14-b1f8-466d-a197-8e13dd6c4742")
+		)
+		(instances
+			(project "water-level-pressure"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "T2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 81.28 57.15 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "05b2bb17-ade0-4e6b-923b-9c74c07f3d3d")
+		(property "Reference" "T1"
+			(at 74.93 57.15 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 77.978 54.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+			(at 81.28 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "${REFERENCE}"
+			(at 81.28 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4170f543-9b0b-4779-80ae-31b3bdce71d0")
+		)
+		(instances
+			(project "water-level-pressure"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "T1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 81.28 69.85 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0abddf49-cea1-4bde-ba9d-244d083cf24f")
+		(property "Reference" "T6"
+			(at 74.93 69.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 77.978 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+			(at 81.28 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "${REFERENCE}"
+			(at 81.28 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "45f73328-ae57-4654-a5d3-9b9ab8260144")
+		)
+		(instances
+			(project "water-level-pressure"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "T6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 124.46 87.63 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0fd85e5b-a5f5-416c-bd5c-b3f6fd396e44")
+		(property "Reference" "T18"
+			(at 130.81 87.63 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 127.762 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+			(at 124.46 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "${REFERENCE}"
+			(at 124.46 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "680eedb9-a382-405b-a200-e9b3ef1f2232")
+		)
+		(instances
+			(project "water-level-pressure"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "T18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 81.28 72.39 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "116a1e45-77ab-48c8-8c0c-31ac8e278de1")
+		(property "Reference" "T7"
+			(at 74.93 72.39 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 77.978 69.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+			(at 81.28 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "${REFERENCE}"
+			(at 81.28 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "989ff422-aec0-4168-9e33-83a19a068d74")
+		)
+		(instances
+			(project "water-level-pressure"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "T7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 124.46 90.17 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "11ce592e-c016-4749-81eb-c370b5c1b345")
+		(property "Reference" "T17"
+			(at 130.81 90.17 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 127.762 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+			(at 124.46 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "${REFERENCE}"
+			(at 124.46 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1b948415-49c7-47f7-b37c-33299c487e61")
+		)
+		(instances
+			(project "water-level-pressure"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "T17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 81.28 92.71 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1344b0a6-a2e0-4070-95f2-281b9923c879")
+		(property "Reference" "T15"
+			(at 74.93 92.71 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 77.978 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+			(at 81.28 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "${REFERENCE}"
+			(at 81.28 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "62bcd02a-8a03-469c-bc64-dd1cc6240ceb")
+		)
+		(instances
+			(project "water-level-pressure"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "T15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 124.46 69.85 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "184f8cc5-d106-4287-b3b0-8b1064ab9780")
+		(property "Reference" "T25"
+			(at 130.81 69.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 127.762 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+			(at 124.46 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "${REFERENCE}"
+			(at 124.46 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "20b72a92-c462-4e56-8404-15949aa8d772")
+		)
+		(instances
+			(project "water-level-pressure"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "T25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 81.28 67.31 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2049006e-ea4d-432a-adcb-d07f0dcee1ea")
+		(property "Reference" "T5"
+			(at 74.93 67.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 77.978 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+			(at 81.28 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "${REFERENCE}"
+			(at 81.28 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ea1af910-63c3-402e-a33d-cc0b113789f6")
+		)
+		(instances
+			(project "water-level-pressure"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "T5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 124.46 82.55 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2694119f-90d1-4170-9f3d-92c07c82995a")
+		(property "Reference" "T20"
+			(at 130.81 82.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 127.762 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+			(at 124.46 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "${REFERENCE}"
+			(at 124.46 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6f232f76-979f-47d6-bc66-8a7170419938")
+		)
+		(instances
+			(project "water-level-pressure"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "T20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 186.69 106.68 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "294b5e03-cb54-4823-a8d9-fce523f58dde")
+		(property "Reference" "J1"
+			(at 190.5 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 190.5 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-3-2.54_1x03_P2.54mm_Horizontal"
+			(at 186.69 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 186.69 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C691850"
+			(at 190.5 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b8a973f7-b990-446f-94a3-e7b08f0ab77b")
+		)
+		(pin "2"
+			(uuid "85b9a55e-02b6-419a-a0d1-746234b1bfa3")
+		)
+		(pin "3"
+			(uuid "89ff1555-7735-463e-92f2-4c902f1c781d")
+		)
+		(instances
+			(project "water-level-pressure"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 81.28 77.47 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "355c0eb1-3a8c-4227-b5b5-529e1fcba0d7")
+		(property "Reference" "T9"
+			(at 74.93 77.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 77.978 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+			(at 81.28 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "${REFERENCE}"
+			(at 81.28 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e49001b9-0ed0-4990-83e1-8b5c762e7f7e")
+		)
+		(instances
+			(project "water-level-pressure"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "T9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 81.28 74.93 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3dbc900a-3bce-4006-aa5d-364d4ed1ba3d")
+		(property "Reference" "T8"
+			(at 74.93 74.93 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 77.978 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+			(at 81.28 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "${REFERENCE}"
+			(at 81.28 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6ea4c4db-58ce-4b72-8c2f-699fb0072cf7")
+		)
+		(instances
+			(project "water-level-pressure"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "T8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 81.28 85.09 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3ec62dc6-5efc-49cf-ade2-832494ddadd5")
+		(property "Reference" "T12"
+			(at 74.93 85.09 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 77.978 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+			(at 81.28 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "${REFERENCE}"
+			(at 81.28 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dfb623ab-47f5-40ff-b306-cead4c12f05e")
+		)
+		(instances
+			(project "water-level-pressure"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "T12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 124.46 72.39 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "420d43a4-0fbc-43f0-b5a4-b7d1337bb737")
+		(property "Reference" "T24"
+			(at 130.81 72.39 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 127.762 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+			(at 124.46 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "${REFERENCE}"
+			(at 124.46 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7d7bfcf3-897f-4cd2-b731-7a4b2399c751")
+		)
+		(instances
+			(project "water-level-pressure"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "T24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 124.46 74.93 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4d0f04e7-4878-4793-841b-9db8b92e5ccb")
+		(property "Reference" "T23"
+			(at 130.81 74.93 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 127.762 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+			(at 124.46 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "${REFERENCE}"
+			(at 124.46 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "44aa500f-eee5-4757-878c-2d0bc6e787ad")
+		)
+		(instances
+			(project "water-level-pressure"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "T23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 175.26 104.14 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "600c9aa3-4fdd-4b65-be3c-c236c97c8b16")
+		(property "Reference" "#PWR04"
+			(at 179.07 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 171.704 102.108 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "92bfb48c-b63f-4be5-a8dc-7008336eb317")
+		)
+		(instances
+			(project "water-level-pressure"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 127 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "629fe330-8fbc-4f01-adb5-89fd8dc3b19a")
+		(property "Reference" "H1"
+			(at 129.54 175.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 129.54 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad_TopBottom"
+			(at 127 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 127 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "${REFERENCE}"
+			(at 127 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4cc8ab9e-6fa0-4013-b780-acc308878ef1")
+		)
+		(instances
+			(project "water-level-pressure"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x15_Socket")
+		(at 110.49 74.93 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "667f3a91-e45f-482a-b3d4-2eac59236bda")
+		(property "Reference" "J5"
+			(at 109.22 76.2001 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x15_Socket"
+			(at 110.49 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical"
+			(at 110.49 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x15, script generated"
+			(at 110.49 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C124408"
+			(at 109.22 76.2001 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "12"
+			(uuid "00bb011f-c397-42ff-9233-7be740fb4a73")
+		)
+		(pin "14"
+			(uuid "033cd052-9baf-4710-a534-863437e12a7d")
+		)
+		(pin "13"
+			(uuid "516e777d-4b80-497b-aa9b-65abc84538c2")
+		)
+		(pin "15"
+			(uuid "95664db0-e760-49c1-84db-9bae58802b8e")
+		)
+		(pin "2"
+			(uuid "cffffab9-7804-40f5-a5aa-94efbf938de5")
+		)
+		(pin "9"
+			(uuid "231bcbd5-9b74-4ed4-a106-b3b719e7ee1d")
+		)
+		(pin "5"
+			(uuid "0290bd99-5c9a-4287-a684-5074b15f0341")
+		)
+		(pin "10"
+			(uuid "bbfa199f-ba02-4139-9949-e4c0c1bbbc21")
+		)
+		(pin "1"
+			(uuid "23261baa-7570-4ddf-a2b0-3e91d2d8c345")
+		)
+		(pin "3"
+			(uuid "098860fd-eed4-4821-8ba9-d0c23832152a")
+		)
+		(pin "11"
+			(uuid "0a96b0bd-b1a1-4305-a6e6-2fd700f8a457")
+		)
+		(pin "4"
+			(uuid "d99b2987-097a-4efd-92b6-1b830b0451b3")
+		)
+		(pin "6"
+			(uuid "acf733ac-bda0-462a-af07-1cac46f63d95")
+		)
+		(pin "7"
+			(uuid "599ab738-2127-4a57-99da-26e0d599260c")
+		)
+		(pin "8"
+			(uuid "2a326794-7ef5-4e1a-8f32-5aea0d2affaa")
+		)
+		(instances
+			(project "water-level-pressure"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 124.46 59.69 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "686b6dfe-9010-4175-aa67-f5d5bf08afe9")
+		(property "Reference" "T29"
+			(at 130.81 59.69 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 127.762 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+			(at 124.46 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "${REFERENCE}"
+			(at 124.46 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "373d8781-08e1-40ed-b379-5a40e76f8548")
+		)
+		(instances
+			(project "water-level-pressure"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "T29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 149.86 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68a572a9-2207-42f6-bb04-a670891549ec")
+		(property "Reference" "H4"
+			(at 152.4 175.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 152.4 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad_TopBottom"
+			(at 149.86 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "${REFERENCE}"
+			(at 149.86 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ec053156-e6d0-40ef-a156-bf9f55ba3c6b")
+		)
+		(instances
+			(project "water-level-pressure"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 81.28 64.77 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6aeccf4d-0447-4e65-b60f-c556726a5521")
+		(property "Reference" "T4"
+			(at 74.93 64.77 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 77.978 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+			(at 81.28 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "${REFERENCE}"
+			(at 81.28 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7e3a42b7-8961-4983-bf2a-0dac01ad9561")
+		)
+		(instances
+			(project "water-level-pressure"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "T4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 142.24 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "736cc9ea-5431-4d93-9481-24476c23c46d")
+		(property "Reference" "H3"
+			(at 144.78 175.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 144.78 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad_TopBottom"
+			(at 142.24 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "${REFERENCE}"
+			(at 142.24 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "30b719f6-c9b0-4e9b-8e94-988c14f9fd0f")
+		)
+		(instances
+			(project "water-level-pressure"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 124.46 62.23 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "74db8c20-8b8f-4556-872d-995e807b8007")
+		(property "Reference" "T28"
+			(at 130.81 62.23 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 127.762 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+			(at 124.46 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "${REFERENCE}"
+			(at 124.46 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7c76ef3a-000b-4504-8184-fc51f1211879")
+		)
+		(instances
+			(project "water-level-pressure"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "T28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 81.28 82.55 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "797fec98-2dff-40d7-a7a8-0c8433e4a74d")
+		(property "Reference" "T11"
+			(at 74.93 82.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 77.978 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+			(at 81.28 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "${REFERENCE}"
+			(at 81.28 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2b54900d-1f3c-43fa-b06e-0089907a1afd")
+		)
+		(instances
+			(project "water-level-pressure"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "T11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 134.62 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7fd5aae9-4646-4ce8-951b-6929bd9da59d")
+		(property "Reference" "H2"
+			(at 137.16 175.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 137.16 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad_TopBottom"
+			(at 134.62 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "${REFERENCE}"
+			(at 134.62 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "928d8ff2-812b-4471-a2ef-aa4c636fb118")
+		)
+		(instances
+			(project "water-level-pressure"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 124.46 85.09 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "806946b9-98c7-420a-a856-980023ec4d75")
+		(property "Reference" "T19"
+			(at 130.81 85.09 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 127.762 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+			(at 124.46 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "${REFERENCE}"
+			(at 124.46 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "34ec713a-c551-40dc-b324-1d3f5b6bc3f0")
+		)
+		(instances
+			(project "water-level-pressure"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "T19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 124.46 67.31 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "84abc831-36e7-4cbe-a076-3f7e9185d9f9")
+		(property "Reference" "T26"
+			(at 130.81 67.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 127.762 69.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+			(at 124.46 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "${REFERENCE}"
+			(at 124.46 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "77392f6f-ced4-4fc5-aa03-f2f43288f696")
+		)
+		(instances
+			(project "water-level-pressure"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "T26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 124.46 57.15 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8575e856-47c1-4050-a8ba-fcf8b45d8371")
+		(property "Reference" "T30"
+			(at 130.81 57.15 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 127.762 54.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+			(at 124.46 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "${REFERENCE}"
+			(at 124.46 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7a7bbe5f-0b85-49ee-9a24-8e7b18fcb9c1")
+		)
+		(instances
+			(project "water-level-pressure"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "T30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 175.26 73.66 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a6214d7-647d-448c-9d25-3f5bd5cfd45a")
+		(property "Reference" "#PWR020"
+			(at 168.91 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 171.45 73.66 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6c72958a-8e1f-4192-9d88-1b1646332b0d")
+		)
+		(instances
+			(project "water-level-pressure"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 85.09 62.23 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8b9a1f0a-f852-45f2-9872-79224a10d8b5")
+		(property "Reference" "#PWR05"
+			(at 78.74 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 84.074 61.214 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "99932a00-e9ae-4631-b14d-280d3203e949")
+		)
+		(instances
+			(project "water-level-pressure"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 124.46 64.77 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "90769a18-6c58-4d7a-bd83-cab63ed5e983")
+		(property "Reference" "T27"
+			(at 130.81 64.77 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 127.762 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+			(at 124.46 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "${REFERENCE}"
+			(at 124.46 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a9d8f9af-b27e-4e4d-9ca6-58a6f9be0146")
+		)
+		(instances
+			(project "water-level-pressure"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "T27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 118.11 64.77 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "93ae1274-63fc-4956-8497-3dd6744051e9")
+		(property "Reference" "#PWR03"
+			(at 114.3 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 122.682 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6df33b3c-f306-461a-a751-b1e9e9fb27a8")
+		)
+		(instances
+			(project "water-level-pressure"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 175.26 109.22 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9eafa598-3a60-4956-b3a1-f601120896f8")
+		(property "Reference" "#PWR018"
+			(at 168.91 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 171.45 109.22 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "500664d8-d1bd-47dc-9d9a-774c67221da4")
+		)
+		(instances
+			(project "water-level-pressure"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 175.26 76.2 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a1ffb70c-33cd-4240-8263-c5ae18098813")
+		(property "Reference" "#PWR06"
+			(at 179.07 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 167.132 76.2 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5cd521a8-8751-47e5-9855-7cf96a23a52e")
+		)
+		(instances
+			(project "water-level-pressure"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 138.43 185.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3417c32-d6d2-4e8c-abf2-4f9aa391d7b2")
+		(property "Reference" "#PWR021"
+			(at 138.43 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 138.43 190.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 185.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1ed5ca97-14c6-4664-bd9b-aad029b3aeb5")
+		)
+		(instances
+			(project "water-level-pressure"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 124.46 80.01 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bbfa36bd-f3ac-430d-b7c4-9c555003136c")
+		(property "Reference" "T21"
+			(at 130.81 80.01 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 127.762 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+			(at 124.46 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "${REFERENCE}"
+			(at 124.46 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5d0b280e-9515-4774-a7d1-b9b471bf90e7")
+		)
+		(instances
+			(project "water-level-pressure"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "T21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 102.87 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7d7e3cd-65cc-4f83-bd98-234be6abd005")
+		(property "Reference" "#PWR019"
+			(at 102.87 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 105.41 142.2399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e74b28ff-3617-4f7c-9c7e-c2b05736ffab")
+		)
+		(instances
+			(project "water-level-pressure"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x15_Socket")
+		(at 95.25 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c883d119-fe65-4208-b918-38cc17d224a9")
+		(property "Reference" "J4"
+			(at 96.52 73.6599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x15_Socket"
+			(at 95.25 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical"
+			(at 95.25 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x15, script generated"
+			(at 95.25 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C124408"
+			(at 96.52 73.6599 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "12"
+			(uuid "8887f9a3-f9a2-47b4-99ad-9df35c8d8bae")
+		)
+		(pin "14"
+			(uuid "3cf97ca7-07ab-417e-bb06-e9399d9c148c")
+		)
+		(pin "13"
+			(uuid "6bab8b0e-5ebe-467c-b7e3-88616552787f")
+		)
+		(pin "15"
+			(uuid "11d468ab-ce64-4f45-9e2d-5353373575b5")
+		)
+		(pin "2"
+			(uuid "e9e54bd8-a8ab-4c0c-8900-5d76c49c9612")
+		)
+		(pin "9"
+			(uuid "c8408254-dc28-4662-a895-8809bc912673")
+		)
+		(pin "5"
+			(uuid "9ed933c7-744b-41d8-8ce8-7d0c84422577")
+		)
+		(pin "10"
+			(uuid "87ded3cd-d312-4e5a-9654-3683f5458ca5")
+		)
+		(pin "1"
+			(uuid "4dfe3035-0698-4707-8433-682f0c23f4f0")
+		)
+		(pin "3"
+			(uuid "40a2c6ed-b304-4dde-81b6-b5c8cc081703")
+		)
+		(pin "11"
+			(uuid "3b9c025e-cb3d-49a5-b680-73f18dce639b")
+		)
+		(pin "4"
+			(uuid "0019f878-89a6-4de4-b317-5db262778f0c")
+		)
+		(pin "6"
+			(uuid "8ef1c5c3-6937-4b5b-8dbb-c4283eedd42d")
+		)
+		(pin "7"
+			(uuid "a0e2eef2-3800-4872-9897-2a841c789dd7")
+		)
+		(pin "8"
+			(uuid "933e5db4-ef5c-4574-bfc9-427683dbc024")
+		)
+		(instances
+			(project "water-level-pressure"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 81.28 90.17 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cb5635f4-1fcf-4538-afc9-e5c9a4650c1f")
+		(property "Reference" "T14"
+			(at 74.93 90.17 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 77.978 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+			(at 81.28 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "${REFERENCE}"
+			(at 81.28 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bf6ffae8-5423-4131-93df-1827f3c7b1a4")
+		)
+		(instances
+			(project "water-level-pressure"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "T14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 81.28 87.63 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d15f9fe6-4098-4c2b-855d-b473cc08d107")
+		(property "Reference" "T13"
+			(at 74.93 87.63 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 77.978 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+			(at 81.28 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "${REFERENCE}"
+			(at 81.28 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f141f34d-ab16-4f68-8a78-b6ff30923aa4")
+		)
+		(instances
+			(project "water-level-pressure"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "T13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 104.14 160.02 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d4435324-3772-41b0-b00b-b51968c88954")
+		(property "Reference" "J3"
+			(at 100.33 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 104.14 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal"
+			(at 104.14 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 104.14 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C699496"
+			(at 100.33 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ae3dc444-a109-4ad9-9437-52b81c3c0c46")
+		)
+		(pin "2"
+			(uuid "b25461df-b4ef-4b2c-97f4-bda11bcb9266")
+		)
+		(instances
+			(project "water-level-pressure"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 124.46 77.47 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d4e40995-8efc-486c-aab5-fd91c90436e0")
+		(property "Reference" "T22"
+			(at 130.81 77.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 127.762 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+			(at 124.46 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "${REFERENCE}"
+			(at 124.46 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "766a311d-1c8b-4ef1-9f18-9a26537faad3")
+		)
+		(instances
+			(project "water-level-pressure"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "T22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 102.87 135.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de7efcf5-8be8-41ef-9379-7dfe99c43174")
+		(property "Reference" "BT1"
+			(at 106.68 132.7784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 106.68 135.3184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Battery:BatteryHolder_MPD_BA9VPC_1xPP3"
+			(at 102.87 134.366 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 134.366 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 102.87 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 102.87 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "DC"
+			(at 102.87 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 102.87 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5556545"
+			(at 106.68 132.7784 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4aa40395-a7a8-4d9a-90d2-b6a384406470")
+		)
+		(pin "1"
+			(uuid "acd23e4a-fae7-4d6a-8f33-28763c14fe5f")
+		)
+		(instances
+			(project "water-level-pressure"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 81.28 62.23 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "de894419-f9ec-4015-8408-2cfe99cb8cb8")
+		(property "Reference" "T3"
+			(at 74.93 62.23 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 77.978 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+			(at 81.28 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "${REFERENCE}"
+			(at 81.28 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "77f01bbd-df3d-4595-bf7e-53275fef7b5b")
+		)
+		(instances
+			(project "water-level-pressure"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "T3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 124.46 92.71 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e177bd02-cc43-459a-bbcb-ad681e4a235b")
+		(property "Reference" "T16"
+			(at 130.81 92.71 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 127.762 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+			(at 124.46 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "${REFERENCE}"
+			(at 124.46 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "41c74bf6-dd19-491c-968d-3e2a37f37d4f")
+		)
+		(instances
+			(project "water-level-pressure"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "T16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 186.69 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e367628a-4bcc-4bbf-893c-a4968ee0a09f")
+		(property "Reference" "J2"
+			(at 190.5 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 186.69 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 186.69 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 186.69 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C124378"
+			(at 190.5 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "86227b96-b115-498a-adce-e7963861a04a")
+		)
+		(pin "2"
+			(uuid "f7af70a7-5a28-40b6-b3f4-f6029928ebe5")
+		)
+		(pin "3"
+			(uuid "0379659d-6635-4348-98bf-ba8f4e443dac")
+		)
+		(pin "4"
+			(uuid "3218200a-f60d-4244-8b60-1e828283fc95")
+		)
+		(instances
+			(project "water-level-pressure"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 81.28 80.01 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ef6f69c3-067f-40ee-a53b-26e55bf3dc3b")
+		(property "Reference" "T10"
+			(at 74.93 80.01 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 77.978 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "water-level-pressure:TestPoint_THTPad_D1.6mm_Drill1.0mm_Variant"
+			(at 81.28 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "${REFERENCE}"
+			(at 81.28 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a855ec4c-6c4c-4825-a123-728a0964c887")
+		)
+		(instances
+			(project "water-level-pressure"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "T10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 120.65 59.69 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f3ec8c75-f702-4807-b294-a327639f5ca1")
+		(property "Reference" "#PWR07"
+			(at 127 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 121.666 60.706 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a8fa592f-377c-4bc9-8357-ca2cd31eff96")
+		)
+		(instances
+			(project "water-level-pressure"
+				(path "/33d3a90e-7f26-4b1c-8a5f-63dc17339015"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
