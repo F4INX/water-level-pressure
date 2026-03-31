@@ -1,0 +1,13 @@
+Tests with PCB and LCD:
+
+LCDs:
+
+https://fr.aliexpress.com/item/1005002723076127.html | Soudure verte I2C 1602 | 2.09 €           |                  | Price checked with account.
+https://fr.aliexpress.com/item/1005006151355330.html | LCD1602 Green I2C      | 2.66 €           |                  | Price checked with account.
+https://fr.aliexpress.com/item/1005006824185543.html | I2C LCD1602 Green      | 2.99 €           |                  | Price checked with account.
+https://fr.aliexpress.com/item/1005008562841962.html | LCD1602 I2C Green      | 9.69 €  + 4.08 € | Good integration | Price checked with account.
+https://fr.aliexpress.com/item/1005008772419010.html | LCD1602 I2C Green      | 14.89 €          | Good integration | Price checked with account.
+https://fr.aliexpress.com/item/1005010651460066.html | LCD1602 I2C (Green)    | 12.29 € + 4.08 € | Good integration | Price checked with account.
+
+Cables: TBD
+
