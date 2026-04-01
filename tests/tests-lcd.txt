@@ -1,5 +1,11 @@
 Tests with PCB and LCD:
 
+Arduino boards:
+
+https://fr.aliexpress.com/item/1005007066680464.html | TYPE-C Soldered 1pcs |  2.86 €
+https://fr.aliexpress.com/item/1005007066680464.html | TYPE-C Soldered 5pcs | 15.19 €
+https://fr.aliexpress.com/item/1005007066680464.html | TYPE-C Soldered10pcs | 26.79 €
+
 LCDs:
 
 https://fr.aliexpress.com/item/1005002723076127.html | Soudure verte I2C 1602 | 2.09 €           |                  | Price checked with account.
