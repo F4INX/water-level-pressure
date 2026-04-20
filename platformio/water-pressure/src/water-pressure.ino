@@ -35,21 +35,23 @@ void setup() {
   /* LCD config */
   lcd.init();
   lcd.backlight();
-  /* LCD write */
-  lcd.clear();
-  lcd.setCursor(0,0);
-  lcd.print("0123456789ABCDEF");
-  lcd.setCursor(0,1);
-  lcd.print("9876543210ABCDEF");
 }
 
 void loop() {
+  /* Measure depth */
   int sensor_adc = analogRead(sensor_pin);
   int bandgap_adc = adc_read_bandgap();
   float sensor_volt = (float(sensor_adc) / float(bandgap_adc)) * V_BANDGAP;
   float depth = (sensor_volt - ZERO_V) / (FS_V - ZERO_V) * FS_DEPTH;
+  /* Send it over serial line */
+  Serial.print("Depth (m): ");
+  Serial.println(depth, 3);
+  /* Display */
   lcd.clear();
   lcd.setCursor(0,0);
-  lcd.print(depth, 3);
+  lcd.print("Depth: ");
+  lcd.print(depth, 2);
+  lcd.print(" m");
+  /* Wait */
   delay(1000);
 }
