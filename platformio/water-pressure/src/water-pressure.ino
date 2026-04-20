@@ -8,6 +8,10 @@ int sensor_pin = A0;
 
 const float V_BANDGAP = 1.1;
 
+const float ZERO_V = 0.5;
+const float FS_V = 4.5;
+const float FS_DEPTH = 3.0;
+
 int adc_read_bandgap() {
   // See https://forum.arduino.cc/t/measurement-of-bandgap-voltage/38215/4
   // REFS1 REFS0          --> 0 1, AVcc internal ref.
@@ -43,8 +47,9 @@ void loop() {
   int sensor_adc = analogRead(sensor_pin);
   int bandgap_adc = adc_read_bandgap();
   float sensor_volt = (float(sensor_adc) / float(bandgap_adc)) * V_BANDGAP;
+  float depth = (sensor_volt - ZERO_V) / (FS_V - ZERO_V) * FS_DEPTH;
   lcd.clear();
   lcd.setCursor(0,0);
-  lcd.print(sensor_volt, 3);
+  lcd.print(depth, 3);
   delay(1000);
 }
