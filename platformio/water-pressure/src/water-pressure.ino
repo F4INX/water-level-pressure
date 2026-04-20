@@ -26,12 +26,14 @@ int adc_read_bandgap() {
 }
 
 void setup() {
-  /* Serial */
-  Serial.begin(9600);
-  Serial.println("Start");
-  /* LED */
-  pinMode(LED_BUILTIN, OUTPUT);
-  digitalWrite(LED_BUILTIN, HIGH);
+  #ifdef DEBUG
+    /* Serial */
+    Serial.begin(9600);
+    Serial.println("Start");
+    /* LED */
+    pinMode(LED_BUILTIN, OUTPUT);
+    digitalWrite(LED_BUILTIN, HIGH);
+  #endif
   /* LCD config */
   lcd.init();
   lcd.backlight();
@@ -43,9 +45,11 @@ void loop() {
   int bandgap_adc = adc_read_bandgap();
   float sensor_volt = (float(sensor_adc) / float(bandgap_adc)) * V_BANDGAP;
   float depth = (sensor_volt - ZERO_V) / (FS_V - ZERO_V) * FS_DEPTH;
-  /* Send it over serial line */
-  Serial.print("Depth (m): ");
-  Serial.println(depth, 3);
+  /* Send it over serial line (debug) */
+  #ifdef DEBUG
+    Serial.print("Depth (m): ");
+    Serial.println(depth, 3);
+  #endif
   /* Display */
   lcd.clear();
   lcd.setCursor(0,0);
