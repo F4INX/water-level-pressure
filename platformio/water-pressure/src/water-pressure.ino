@@ -7,8 +7,8 @@ LiquidCrystal_I2C lcd(0x27, cols, rows);  // Set the LCD address to 0x27 for a 1
 int sensor_pin = A0;
 
 const float V_REF = 5.0;
-const float R_BITS = 10.0;
-const float ADC_STEPS = (1 << int(R_BITS)) - 1;
+const int R_BITS = 10.0;
+const float ADC_STEPS = 1 << R_BITS;
 
 void setup() {
   /* Serial */
