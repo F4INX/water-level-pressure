@@ -4,6 +4,12 @@ const int cols = 16;
 const int rows = 2;
 LiquidCrystal_I2C lcd(0x27, cols, rows);  // Set the LCD address to 0x27 for a 16 chars and 2 line.
 
+int sensor_pin = A0;
+
+const float V_REF = 5.0;
+const float R_BITS = 10.0;
+const float ADC_STEPS = (1 << int(R_BITS)) - 1;
+
 void setup() {
   /* Serial */
   Serial.begin(9600);
@@ -23,4 +29,10 @@ void setup() {
 }
 
 void loop() {
+  int sensor_adc = analogRead(sensor_pin);
+  float sensor_volt = (sensor_adc / ADC_STEPS) * V_REF;
+  lcd.clear();
+  lcd.setCursor(0,0);
+  lcd.print(sensor_volt, 3);
+  delay(1000);
 }
