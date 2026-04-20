@@ -6,9 +6,20 @@ LiquidCrystal_I2C lcd(0x27, cols, rows);  // Set the LCD address to 0x27 for a 1
 
 int sensor_pin = A0;
 
-const float V_REF = 5.0;
-const int R_BITS = 10.0;
-const float ADC_STEPS = 1 << R_BITS;
+const float V_BANDGAP = 1.1;
+
+int adc_read_bandgap() {
+  // See https://forum.arduino.cc/t/measurement-of-bandgap-voltage/38215/4
+  // REFS1 REFS0          --> 0 1, AVcc internal ref.
+  // MUX3 MUX2 MUX1 MUX0  --> 1110 1.1V (VBG)
+  ADMUX = (0 << REFS1) | (1 << REFS0) | (0 << ADLAR) | (1 << MUX3) | (1 << MUX2) | (1 << MUX1) | (0 << MUX0);
+  delay(1);  // FIXME: check this delay again
+  // Start a conversion
+  ADCSRA |= _BV( ADSC );
+  // Wait for it to complete
+  while( ( (ADCSRA & (1<<ADSC)) != 0 ) );
+  return ADC;
+}
 
 void setup() {
   /* Serial */
@@ -30,7 +41,8 @@ void setup() {
 
 void loop() {
   int sensor_adc = analogRead(sensor_pin);
-  float sensor_volt = (sensor_adc / ADC_STEPS) * V_REF;
+  int bandgap_adc = adc_read_bandgap();
+  float sensor_volt = (float(sensor_adc) / float(bandgap_adc)) * V_BANDGAP;
   lcd.clear();
   lcd.setCursor(0,0);
   lcd.print(sensor_volt, 3);
